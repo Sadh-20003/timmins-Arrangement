@@ -176,75 +176,9 @@ const Homepage = () => {
                 </main>
             </section>
 
-            <section className='feature'>
-                <div className="feature-area fa-negative">
-                    <div className="col-xl-9 ms-auto">
-                        <div className="feature-wrapper">
-                            <div className="row g-4">
-                                <div className="col-md-6 col-lg-3">
-                                    <div className="feature-item">
-                                        <span className="count">01</span>
-                                        <div className="feature-icon">
-                                            <img src="assets/img/icon/scholarship.svg" alt="" />
-                                        </div>
-                                        <div className="feature-content">
-                                            <h4 className="feature-title">Scholarship Facility</h4>
-                                            <p>
-                                                It is a long established fact that a reader will be distracted.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-3">
-                                    <div className="feature-item">
-                                        <span className="count">02</span>
-                                        <div className="feature-icon">
-                                            <img src="assets/img/icon/teacher.svg" alt="" />
-                                        </div>
-                                        <div className="feature-content">
-                                            <h4 className="feature-title">Skilled Lecturers</h4>
-                                            <p>
-                                                It is a long established fact that a reader will be distracted.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-3">
-                                    <div className="feature-item">
-                                        <span className="count">03</span>
-                                        <div className="feature-icon">
-                                            <img src="./assets/img/icon/library.svg" alt="" />
-                                        </div>
-                                        <div className="feature-content">
-                                            <h4 className="feature-title">Book Library Facility</h4>
-                                            <p>
-                                                It is a long established fact that a reader will be distracted.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-3">
-                                    <div className="feature-item">
-                                        <span className="count">04</span>
-                                        <div className="feature-icon">
-                                            <img src="assets/img/icon/money.svg" alt="" />
-                                        </div>
-                                        <div className="feature-content">
-                                            <h4 className="feature-title">Affordable Price</h4>
-                                            <p>
-                                                It is a long established fact that a reader will be distracted.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-            </section>
 
-            <section className='about'>
+            <section className='HRDC'>
 
                 <div className="about-area py-120">
                     <div className="container">
@@ -358,89 +292,8 @@ const Homepage = () => {
 
             </section>
 
-            <section className='counter'>
-                <div className="counter-area pt-60 pb-60">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="icon">
-                                        <img src="./src/assets/img/icon/course.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span
-                                            className="counter"
-                                            data-count="+"
-                                            data-to={500}
-                                            data-speed={3000}
-                                        >
-                                            500
-                                        </span>
-                                        <h6 className="title">+ Total Cources </h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="icon">
-                                        <img src="./src/assets/img/icon/graduation.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span
-                                            className="counter"
-                                            data-count="+"
-                                            data-to={1900}
-                                            data-speed={3000}
-                                        >
-                                            1900
-                                        </span>
-                                        <h6 className="title">+ Our Students</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="icon">
-                                        <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span
-                                            className="counter"
-                                            data-count="+"
-                                            data-to={750}
-                                            data-speed={3000}
-                                        >
-                                            750
-                                        </span>
-                                        <h6 className="title">+ Skilled Lecturers</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="icon">
-                                        <img src="./src/assets/img/icon/award.svg" alt="" />
-                                    </div>
-                                    <div>
-                                        <span
-                                            className="counter"
-                                            data-count="+"
-                                            data-to={30}
-                                            data-speed={3000}
-                                        >
-                                            30
-                                        </span>
-                                        <h6 className="title">+ Win Awards</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-            </section>
-
-            <section className='course'>
+            {/* <section className='course'>
 
                 <div className="course-area py-120">
                     <div className="container">
@@ -754,9 +607,9 @@ const Homepage = () => {
                 </div>
 
 
-            </section>
+            </section> */}
 
-            <section className='vedio'>
+            <section className='celebration'>
                 <div className="video-area">
                     <div className="container">
                         <div className="row g-4">
@@ -802,8 +655,176 @@ const Homepage = () => {
                     </div>
                 </div>
 
-            </section>
-            <section className='team -area'>
+
+                <section className='why timmins'>
+                    <div className="choose-area pt-80 pb-80">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6">
+                                    <div className="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                        <div className="choose-content-info">
+                                            <div className="site-heading mb-0">
+                                                <span className="site-title-tagline">
+                                                    <i className="far fa-book-open-reader" /> Why Choose Us
+                                                </span>
+                                                <h2 className="site-title text-white mb-10">
+                                                    We Are Expert &amp; <span>Do Our Best</span> For Your Goal
+                                                </h2>
+                                                <p className="text-white">
+                                                    It is a long established fact that a reader will be distracted
+                                                    by the readable content of a page when many desktop and web page
+                                                    editors looking at its layout.
+                                                </p>
+                                            </div>
+                                            <div className="choose-content-wrap">
+                                                <div className="row g-4">
+                                                    <div className="col-md-6">
+                                                        <div className="choose-item">
+                                                            <div className="choose-item-icon">
+                                                                <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
+                                                            </div>
+                                                            <div className="choose-item-info">
+                                                                <h4>Expert Teachers</h4>
+                                                                <p>There are many variation of the suffered.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-6">
+                                                        <div className="choose-item">
+                                                            <div className="choose-item-icon">
+                                                                <img src="./src/assets/img/icon/course-material.svg" alt="" />
+                                                            </div>
+                                                            <div className="choose-item-info">
+                                                                <h4>Courses Material</h4>
+                                                                <p>There are many variation of the suffered.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-6">
+                                                        <div className="choose-item">
+                                                            <div className="choose-item-icon">
+                                                                <img src="./src/assets/img/icon/online-course.svg" alt="" />
+                                                            </div>
+                                                            <div className="choose-item-info">
+                                                                <h4>Online Courses</h4>
+                                                                <p>There are many variation of the suffered.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-6">
+                                                        <div className="choose-item">
+                                                            <div className="choose-item-icon">
+                                                                <img src="./src/assets/img/icon/money.svg" alt="" />
+                                                            </div>
+                                                            <div className="choose-item-info">
+                                                                <h4>Affordable Price</h4>
+                                                                <p>There are many variation of the suffered.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6">
+                                    <div className="choose-img wow fadeInRight" data-wow-delay=".25s">
+                                        <img src="./src/assets/img/choose/01.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+
+                <section className='STATS'>
+                    <div className="counter-area pt-60 pb-60">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="counter-box">
+                                        <div className="icon">
+                                            <img src="./src/assets/img/icon/course.svg" alt="" />
+                                        </div>
+                                        <div>
+                                            <span
+                                                className="counter"
+                                                data-count="+"
+                                                data-to={500}
+                                                data-speed={3000}
+                                            >
+                                                500
+                                            </span>
+                                            <h6 className="title">+ Total Cources </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="counter-box">
+                                        <div className="icon">
+                                            <img src="./src/assets/img/icon/graduation.svg" alt="" />
+                                        </div>
+                                        <div>
+                                            <span
+                                                className="counter"
+                                                data-count="+"
+                                                data-to={1900}
+                                                data-speed={3000}
+                                            >
+                                                1900
+                                            </span>
+                                            <h6 className="title">+ Our Students</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="counter-box">
+                                        <div className="icon">
+                                            <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
+                                        </div>
+                                        <div>
+                                            <span
+                                                className="counter"
+                                                data-count="+"
+                                                data-to={750}
+                                                data-speed={3000}
+                                            >
+                                                750
+                                            </span>
+                                            <h6 className="title">+ Skilled Lecturers</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 col-sm-6">
+                                    <div className="counter-box">
+                                        <div className="icon">
+                                            <img src="./src/assets/img/icon/award.svg" alt="" />
+                                        </div>
+                                        <div>
+                                            <span
+                                                className="counter"
+                                                data-count="+"
+                                                data-to={30}
+                                                data-speed={3000}
+                                            >
+                                                30
+                                            </span>
+                                            <h6 className="title">+ Win Awards</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+            </section >
+            <section className='solution'>
                 <div className="team-area py-120">
                     <div className="container">
                         <div className="row">
@@ -957,80 +978,70 @@ const Homepage = () => {
 
             </section>
 
-            <section className='choose area'>
-                <div className="choose-area pt-80 pb-80">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <div className="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                    <div className="choose-content-info">
-                                        <div className="site-heading mb-0">
-                                            <span className="site-title-tagline">
-                                                <i className="far fa-book-open-reader" /> Why Choose Us
-                                            </span>
-                                            <h2 className="site-title text-white mb-10">
-                                                We Are Expert &amp; <span>Do Our Best</span> For Your Goal
-                                            </h2>
-                                            <p className="text-white">
-                                                It is a long established fact that a reader will be distracted
-                                                by the readable content of a page when many desktop and web page
-                                                editors looking at its layout.
-                                            </p>
+
+
+
+
+            <section className='feature'>
+                <div className="feature-area fa-negative">
+                    <div className="col-xl-9 ms-auto">
+                        <div className="feature-wrapper">
+                            <div className="row g-4">
+                                <div className="col-md-6 col-lg-3">
+                                    <div className="feature-item">
+                                        <span className="count">01</span>
+                                        <div className="feature-icon">
+                                            <img src="./src/assets/img/icon/scholarship.svg" alt="" />
                                         </div>
-                                        <div className="choose-content-wrap">
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="choose-item">
-                                                        <div className="choose-item-icon">
-                                                            <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
-                                                        </div>
-                                                        <div className="choose-item-info">
-                                                            <h4>Expert Teachers</h4>
-                                                            <p>There are many variation of the suffered.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="choose-item">
-                                                        <div className="choose-item-icon">
-                                                            <img src="./src/assets/img/icon/course-material.svg" alt="" />
-                                                        </div>
-                                                        <div className="choose-item-info">
-                                                            <h4>Courses Material</h4>
-                                                            <p>There are many variation of the suffered.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="choose-item">
-                                                        <div className="choose-item-icon">
-                                                            <img src="./src/assets/img/icon/online-course.svg" alt="" />
-                                                        </div>
-                                                        <div className="choose-item-info">
-                                                            <h4>Online Courses</h4>
-                                                            <p>There are many variation of the suffered.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="choose-item">
-                                                        <div className="choose-item-icon">
-                                                            <img src="./src/assets/img/icon/money.svg" alt="" />
-                                                        </div>
-                                                        <div className="choose-item-info">
-                                                            <h4>Affordable Price</h4>
-                                                            <p>There are many variation of the suffered.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div className="feature-content">
+                                            <h4 className="feature-title">Scholarship Facility</h4>
+                                            <p>
+                                                It is a long established fact that a reader will be distracted.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="choose-img wow fadeInRight" data-wow-delay=".25s">
-                                    <img src="./src/assets/img/choose/01.jpg" alt="" />
+                                <div className="col-md-6 col-lg-3">
+                                    <div className="feature-item">
+                                        <span className="count">02</span>
+                                        <div className="feature-icon">
+                                            <img src="./src/assets/img/icon/teacher.svg" alt="" />
+                                        </div>
+                                        <div className="feature-content">
+                                            <h4 className="feature-title">Skilled Lecturers</h4>
+                                            <p>
+                                                It is a long established fact that a reader will be distracted.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-lg-3">
+                                    <div className="feature-item">
+                                        <span className="count">03</span>
+                                        <div className="feature-icon">
+                                            <img src="./src/assets/img/icon/library.svg" alt="" />
+                                        </div>
+                                        <div className="feature-content">
+                                            <h4 className="feature-title">Book Library Facility</h4>
+                                            <p>
+                                                It is a long established fact that a reader will be distracted.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-lg-3">
+                                    <div className="feature-item">
+                                        <span className="count">04</span>
+                                        <div className="feature-icon">
+                                            <img src="./src/assets/img/icon/money.svg" alt="" />
+                                        </div>
+                                        <div className="feature-content">
+                                            <h4 className="feature-title">Affordable Price</h4>
+                                            <p>
+                                                It is a long established fact that a reader will be distracted.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1039,17 +1050,133 @@ const Homepage = () => {
 
             </section>
 
-            <section className='gallery'>
-                <div className="gallery-area py-120">
+
+            {/* <section className='enroll'>
+                <div className="enroll-area pt-80 pb-80">
+                    <div className="container">
+                        <div className="col-lg-12">
+                            <div className="row g-5 align-items-center">
+                                <div className="col-lg-6">
+                                    <div className="enroll-left wow fadeInLeft" data-wow-delay=".25s">
+                                        <div className="enroll-form">
+                                            <div className="enroll-form-header">
+                                                <h3>Start Your Enrollment</h3>
+                                                <p>We are variations of passages the have suffered.</p>
+                                            </div>
+                                            <form action="#">
+                                                <div className="form-group">
+                                                    <input
+                                                        type="text"
+                                                        name="name"
+                                                        className="form-control"
+                                                        placeholder="Your Name"
+                                                    />
+                                                </div>
+                                                <div className="form-group">
+                                                    <input
+                                                        type="email"
+                                                        name="email"
+                                                        className="form-control"
+                                                        placeholder="Email Address"
+                                                    />
+                                                </div>
+                                                <div className="form-group">
+                                                    <select className="form-select" name="service">
+                                                        <option value="">Choose Course</option>
+                                                        <option value={1}>Art And Design</option>
+                                                        <option value={2}>Acting And Drama</option>
+                                                        <option value={3}>Accounting And Finance</option>
+                                                        <option value={4}>Biology And Conservation</option>
+                                                        <option value={5}>Science And Engineering</option>
+                                                        <option value={6}>Health Administration</option>
+                                                    </select>
+                                                </div>
+                                                <div className="form-group">
+                                                    <textarea
+                                                        name="message"
+                                                        className="form-control"
+                                                        placeholder="Type Message"
+                                                        rows={4}
+                                                        defaultValue={""}
+                                                    />
+                                                </div>
+                                                <button className="theme-btn">
+                                                    Enroll Now
+                                                    <i className="fas fa-arrow-right-long" />
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6">
+                                    <div className="enroll-right wow fadeInUp" data-wow-delay=".25s">
+                                        <div className="skill-content">
+                                            <div className="site-heading mb-3">
+                                                <span className="site-title-tagline">
+                                                    <i className="far fa-book-open-reader" /> Our Skills
+                                                </span>
+                                                <h2 className="site-title text-white">
+                                                    Explore Your <span>Creativity And Talent</span> With Us
+                                                </h2>
+                                            </div>
+                                            <p className="text-white">
+                                                There are many variations of passages available but the majority
+                                                have suffered alteration in some form by injected humour
+                                                randomised words which don't look even slightly believable. If
+                                                you are going to use passage you need sure there anything
+                                                embarrassing first true generator on the Internet.
+                                            </p>
+                                            <div className="skills-section">
+                                                <div className="progress-box">
+                                                    <h5>
+                                                        Our Students <span className="pull-right">85%</span>
+                                                    </h5>
+                                                    <div className="progress" data-value={85}>
+                                                        <div className="progress-bar" role="progressbar" />
+                                                    </div>
+                                                </div>
+                                                <div className="progress-box">
+                                                    <h5>
+                                                        Our Teachers <span className="pull-right">65%</span>
+                                                    </h5>
+                                                    <div className="progress" data-value={65}>
+                                                        <div className="progress-bar" role="progressbar" />
+                                                    </div>
+                                                </div>
+                                                <div className="progress-box">
+                                                    <h5>
+                                                        Our Courses <span className="pull-right">75%</span>
+                                                    </h5>
+                                                    <div className="progress" data-value={75}>
+                                                        <div className="progress-bar" role="progressbar" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="contact.html" className="theme-btn mt-5">
+                                                Learn More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section> */}
+
+            <section className='Scaled Agile'>
+                <div className="department-area bg py-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mx-auto">
                                 <div className="site-heading text-center">
                                     <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Gallery
+                                        <i className="far fa-book-open-reader" /> Department
                                     </span>
                                     <h2 className="site-title">
-                                        Our Photo <span>Gallery</span>
+                                        Browse Our <span>Department</span>
                                     </h2>
                                     <p>
                                         It is a long established fact that a reader will be distracted by
@@ -1058,87 +1185,103 @@ const Homepage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row popup-gallery">
-                            <div className="col-md-4 wow fadeInUp" data-wow-delay=".25s">
-                                <div className="gallery-item">
-                                    <div className="gallery-img">
-                                        <img src="./src/assets/img/gallery/01.jpg" alt="" />
-                                    </div>
-                                    <div className="gallery-content">
-                                        <a
-                                            className="popup-img gallery-link"
-                                            href="./src/assets/img/gallery/01.jpg"
-                                        >
-                                            <i className="fal fa-plus" />
-                                        </a>
-                                    </div>
+                        <div className="department-slider owl-carousel owl-theme">
+                            <div className="department-item">
+                                <div className="department-icon">
+                                    <img src="./src/assets/img/icon/monitor.svg" alt="" />
                                 </div>
-                                <div className="gallery-item">
-                                    <div className="gallery-img">
-                                        <img src="./src/assets/img/gallery/02.jpg" alt="" />
-                                    </div>
-                                    <div className="gallery-content">
-                                        <a
-                                            className="popup-img gallery-link"
-                                            href="./src/assets/img/gallery/02.jpg"
-                                        >
-                                            <i className="fal fa-plus" />
+                                <div className="department-info">
+                                    <h4 className="department-title">
+                                        <a href="academic-single.html">Business And Finance</a>
+                                    </h4>
+                                    <p>
+                                        There are many variations of passages the majority have some
+                                        injected humour.
+                                    </p>
+                                    <div className="department-btn">
+                                        <a href="academic-single.html">
+                                            Read More
+                                            <i className="fas fa-arrow-right-long" />
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 wow fadeInUp" data-wow-delay=".50s">
-                                <div className="gallery-item">
-                                    <div className="gallery-img">
-                                        <img src="./src/assets/img/gallery/03.jpg" alt="" />
-                                    </div>
-                                    <div className="gallery-content">
-                                        <a
-                                            className="popup-img gallery-link"
-                                            href="./src/assets/img/gallery/03.jpg"
-                                        >
-                                            <i className="fal fa-plus" />
-                                        </a>
-                                    </div>
+                            <div className="department-item">
+                                <div className="department-icon">
+                                    <img src="./src/assets/img/icon/law.svg" alt="" />
                                 </div>
-                                <div className="gallery-item">
-                                    <div className="gallery-img">
-                                        <img src="./src/assets/img/gallery/04.jpg" alt="" />
-                                    </div>
-                                    <div className="gallery-content">
-                                        <a
-                                            className="popup-img gallery-link"
-                                            href="./src/assets/img/gallery/04.jpg"
-                                        >
-                                            <i className="fal fa-plus" />
+                                <div className="department-info">
+                                    <h4 className="department-title">
+                                        <a href="academic-single.html">Law And Criminology</a>
+                                    </h4>
+                                    <p>
+                                        There are many variations of passages the majority have some
+                                        injected humour.
+                                    </p>
+                                    <div className="department-btn">
+                                        <a href="academic-single.html">
+                                            Read More
+                                            <i className="fas fa-arrow-right-long" />
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 wow fadeInUp" data-wow-delay=".75s">
-                                <div className="gallery-item">
-                                    <div className="gallery-img">
-                                        <img src="./src/assets/img/gallery/05.jpg" alt="" />
-                                    </div>
-                                    <div className="gallery-content">
-                                        <a
-                                            className="popup-img gallery-link"
-                                            href="./src/assets/img/gallery/05.jpg"
-                                        >
-                                            <i className="fal fa-plus" />
+                            <div className="department-item">
+                                <div className="department-icon">
+                                    <img src="./src/assets/img/icon/data.svg" alt="" />
+                                </div>
+                                <div className="department-info">
+                                    <h4 className="department-title">
+                                        <a href="academic-single.html">IT And Data Science</a>
+                                    </h4>
+                                    <p>
+                                        There are many variations of passages the majority have some
+                                        injected humour.
+                                    </p>
+                                    <div className="department-btn">
+                                        <a href="academic-single.html">
+                                            Read More
+                                            <i className="fas fa-arrow-right-long" />
                                         </a>
                                     </div>
                                 </div>
-                                <div className="gallery-item">
-                                    <div className="gallery-img">
-                                        <img src="./src/assets/img/gallery/06.jpg" alt="" />
+                            </div>
+                            <div className="department-item">
+                                <div className="department-icon">
+                                    <img src="./src/assets/img/icon/health.svg" alt="" />
+                                </div>
+                                <div className="department-info">
+                                    <h4 className="department-title">
+                                        <a href="academic-single.html">Health And Medicine</a>
+                                    </h4>
+                                    <p>
+                                        There are many variations of passages the majority have some
+                                        injected humour.
+                                    </p>
+                                    <div className="department-btn">
+                                        <a href="academic-single.html">
+                                            Read More
+                                            <i className="fas fa-arrow-right-long" />
+                                        </a>
                                     </div>
-                                    <div className="gallery-content">
-                                        <a
-                                            className="popup-img gallery-link"
-                                            href="./src/assets/img/gallery/06.jpg"
-                                        >
-                                            <i className="fal fa-plus" />
+                                </div>
+                            </div>
+                            <div className="department-item">
+                                <div className="department-icon">
+                                    <img src="./src/assets/img/icon/art.svg" alt="" />
+                                </div>
+                                <div className="department-info">
+                                    <h4 className="department-title">
+                                        <a href="academic-single.html">Art And Design</a>
+                                    </h4>
+                                    <p>
+                                        There are many variations of passages the majority have some
+                                        injected humour.
+                                    </p>
+                                    <div className="department-btn">
+                                        <a href="academic-single.html">
+                                            Read More
+                                            <i className="fas fa-arrow-right-long" />
                                         </a>
                                     </div>
                                 </div>
@@ -1146,6 +1289,7 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
+
             </section>
 
             <section className='cta'>
@@ -1175,6 +1319,7 @@ const Homepage = () => {
                 </div>
 
             </section>
+
 
             <section className='event'>
                 <div className="event-area bg py-120">
@@ -1342,132 +1487,18 @@ const Homepage = () => {
 
             </section>
 
-            <section className='enroll'>
-                <div className="enroll-area pt-80 pb-80">
-                    <div className="container">
-                        <div className="col-lg-12">
-                            <div className="row g-5 align-items-center">
-                                <div className="col-lg-6">
-                                    <div className="enroll-left wow fadeInLeft" data-wow-delay=".25s">
-                                        <div className="enroll-form">
-                                            <div className="enroll-form-header">
-                                                <h3>Start Your Enrollment</h3>
-                                                <p>We are variations of passages the have suffered.</p>
-                                            </div>
-                                            <form action="#">
-                                                <div className="form-group">
-                                                    <input
-                                                        type="text"
-                                                        name="name"
-                                                        className="form-control"
-                                                        placeholder="Your Name"
-                                                    />
-                                                </div>
-                                                <div className="form-group">
-                                                    <input
-                                                        type="email"
-                                                        name="email"
-                                                        className="form-control"
-                                                        placeholder="Email Address"
-                                                    />
-                                                </div>
-                                                <div className="form-group">
-                                                    <select className="form-select" name="service">
-                                                        <option value="">Choose Course</option>
-                                                        <option value={1}>Art And Design</option>
-                                                        <option value={2}>Acting And Drama</option>
-                                                        <option value={3}>Accounting And Finance</option>
-                                                        <option value={4}>Biology And Conservation</option>
-                                                        <option value={5}>Science And Engineering</option>
-                                                        <option value={6}>Health Administration</option>
-                                                    </select>
-                                                </div>
-                                                <div className="form-group">
-                                                    <textarea
-                                                        name="message"
-                                                        className="form-control"
-                                                        placeholder="Type Message"
-                                                        rows={4}
-                                                        defaultValue={""}
-                                                    />
-                                                </div>
-                                                <button className="theme-btn">
-                                                    Enroll Now
-                                                    <i className="fas fa-arrow-right-long" />
-                                                </button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="enroll-right wow fadeInUp" data-wow-delay=".25s">
-                                        <div className="skill-content">
-                                            <div className="site-heading mb-3">
-                                                <span className="site-title-tagline">
-                                                    <i className="far fa-book-open-reader" /> Our Skills
-                                                </span>
-                                                <h2 className="site-title text-white">
-                                                    Explore Your <span>Creativity And Talent</span> With Us
-                                                </h2>
-                                            </div>
-                                            <p className="text-white">
-                                                There are many variations of passages available but the majority
-                                                have suffered alteration in some form by injected humour
-                                                randomised words which don't look even slightly believable. If
-                                                you are going to use passage you need sure there anything
-                                                embarrassing first true generator on the Internet.
-                                            </p>
-                                            <div className="skills-section">
-                                                <div className="progress-box">
-                                                    <h5>
-                                                        Our Students <span className="pull-right">85%</span>
-                                                    </h5>
-                                                    <div className="progress" data-value={85}>
-                                                        <div className="progress-bar" role="progressbar" />
-                                                    </div>
-                                                </div>
-                                                <div className="progress-box">
-                                                    <h5>
-                                                        Our Teachers <span className="pull-right">65%</span>
-                                                    </h5>
-                                                    <div className="progress" data-value={65}>
-                                                        <div className="progress-bar" role="progressbar" />
-                                                    </div>
-                                                </div>
-                                                <div className="progress-box">
-                                                    <h5>
-                                                        Our Courses <span className="pull-right">75%</span>
-                                                    </h5>
-                                                    <div className="progress" data-value={75}>
-                                                        <div className="progress-bar" role="progressbar" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="contact.html" className="theme-btn mt-5">
-                                                Learn More
-                                                <i className="fas fa-arrow-right-long" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-            </section>
-
-            <section className='department'>
-                <div className="department-area bg py-120">
+            <section className='gallery'>
+                <div className="gallery-area py-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mx-auto">
                                 <div className="site-heading text-center">
                                     <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Department
+                                        <i className="far fa-book-open-reader" /> Gallery
                                     </span>
                                     <h2 className="site-title">
-                                        Browse Our <span>Department</span>
+                                        Our Photo <span>Gallery</span>
                                     </h2>
                                     <p>
                                         It is a long established fact that a reader will be distracted by
@@ -1476,103 +1507,87 @@ const Homepage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="department-slider owl-carousel owl-theme">
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/monitor.svg" alt="" />
+                        <div className="row popup-gallery">
+                            <div className="col-md-4 wow fadeInUp" data-wow-delay=".25s">
+                                <div className="gallery-item">
+                                    <div className="gallery-img">
+                                        <img src="./src/assets/img/gallery/01.jpg" alt="" />
+                                    </div>
+                                    <div className="gallery-content">
+                                        <a
+                                            className="popup-img gallery-link"
+                                            href="./src/assets/img/gallery/01.jpg"
+                                        >
+                                            <i className="fal fa-plus" />
+                                        </a>
+                                    </div>
                                 </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Business And Finance</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
+                                <div className="gallery-item">
+                                    <div className="gallery-img">
+                                        <img src="./src/assets/img/gallery/02.jpg" alt="" />
+                                    </div>
+                                    <div className="gallery-content">
+                                        <a
+                                            className="popup-img gallery-link"
+                                            href="./src/assets/img/gallery/02.jpg"
+                                        >
+                                            <i className="fal fa-plus" />
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/law.svg" alt="" />
+                            <div className="col-md-4 wow fadeInUp" data-wow-delay=".50s">
+                                <div className="gallery-item">
+                                    <div className="gallery-img">
+                                        <img src="./src/assets/img/gallery/03.jpg" alt="" />
+                                    </div>
+                                    <div className="gallery-content">
+                                        <a
+                                            className="popup-img gallery-link"
+                                            href="./src/assets/img/gallery/03.jpg"
+                                        >
+                                            <i className="fal fa-plus" />
+                                        </a>
+                                    </div>
                                 </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Law And Criminology</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
+                                <div className="gallery-item">
+                                    <div className="gallery-img">
+                                        <img src="./src/assets/img/gallery/04.jpg" alt="" />
+                                    </div>
+                                    <div className="gallery-content">
+                                        <a
+                                            className="popup-img gallery-link"
+                                            href="./src/assets/img/gallery/04.jpg"
+                                        >
+                                            <i className="fal fa-plus" />
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/data.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">IT And Data Science</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
+                            <div className="col-md-4 wow fadeInUp" data-wow-delay=".75s">
+                                <div className="gallery-item">
+                                    <div className="gallery-img">
+                                        <img src="./src/assets/img/gallery/05.jpg" alt="" />
+                                    </div>
+                                    <div className="gallery-content">
+                                        <a
+                                            className="popup-img gallery-link"
+                                            href="./src/assets/img/gallery/05.jpg"
+                                        >
+                                            <i className="fal fa-plus" />
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/health.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Health And Medicine</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                <div className="gallery-item">
+                                    <div className="gallery-img">
+                                        <img src="./src/assets/img/gallery/06.jpg" alt="" />
                                     </div>
-                                </div>
-                            </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/art.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Art And Design</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
+                                    <div className="gallery-content">
+                                        <a
+                                            className="popup-img gallery-link"
+                                            href="./src/assets/img/gallery/06.jpg"
+                                        >
+                                            <i className="fal fa-plus" />
                                         </a>
                                     </div>
                                 </div>
@@ -1580,8 +1595,11 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
+
+
+
+
 
             <section className='testimonial'>
                 <div className="testimonial-area ts-bg pt-80 pb-80">
