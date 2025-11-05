@@ -1,8 +1,75 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const Homepage = () => {
+    useEffect(() => {
+        if (window.$) {
+            $('.hero-slider').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                margin: 0,
+                autoplay: true,
+                autoplayHoverPause: true,
+                autoplayTimeout: 5000,
+                items: 1,
+                navText: [
+                    "<i class='far fa-long-arrow-left'></i>",
+                    "<i class='far fa-long-arrow-right'></i>"
+                ],
+
+                onInitialized: function(event) {
+                    var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
+                    doAnimations($firstAnimatingElements);
+                },
+
+                onChanged: function(event){
+                    var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
+                    doAnimations($firstAnimatingElements);
+                }
+            });
+
+            function doAnimations(elements) {
+                var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+                elements.each(function () {
+                    var $this = $(this);
+                    var $animationDelay = $this.data('delay');
+                    var $animationDuration = $this.data('duration');
+                    var $animationType = 'animated ' + $this.data('animation');
+                    $this.css({
+                        'animation-delay': $animationDelay,
+                        '-webkit-animation-delay': $animationDelay,
+                        'animation-duration': $animationDuration,
+                        '-webkit-animation-duration': $animationDuration,
+                    });
+                    $this.addClass($animationType).one(animationEndEvents, function () {
+                        $this.removeClass($animationType);
+                    });
+                });
+            }
+
+            $('.testimonial-slider').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+        }
+    }, []);
+
     return (
         <>
             <Navbar />
