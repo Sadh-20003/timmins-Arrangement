@@ -119,10 +119,10 @@ const Aboutpage = () => {
                                     <div className="about-img">
                                         <div className="row g-4">
                                             <div className="col-md-6">
-                                                <img className="img-1" src="./src/assets/img/about/01.jpg" alt="" />
+                                                <img className="img-1" src="/img/about/01.jpg" alt="" />
                                                 <div className="about-experience mt-4">
                                                     <div className="about-experience-icon">
-                                                        <img src="./src/assets/img/icon/exchange-idea.svg" alt="" />
+                                                        <img src="/img/icon/exchange-idea.svg" alt="" />
                                                     </div>
                                                     <b className="text-start">
                                                         30 Years Of <br /> Quality Service
@@ -130,10 +130,10 @@ const Aboutpage = () => {
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <img className="img-2" src="./src/assets/img/about/02.jpg" alt="" />
+                                                <img className="img-2" src="/img/about/02.jpg" alt="" />
                                                 <img
                                                     className="img-3 mt-4"
-                                                    src="./src/assets/img/about/03.jpg"
+                                                    src="/img/about/03.jpg"
                                                     alt=""
                                                 />
                                             </div>
@@ -162,7 +162,7 @@ const Aboutpage = () => {
                                             <div className="col-md-7">
                                                 <div className="about-item">
                                                     <div className="about-item-icon">
-                                                        <img src="./src/assets/img/icon/open-book.svg" alt="" />
+                                                        <img src="/img/icon/open-book.svg" alt="" />
                                                     </div>
                                                     <div className="about-item-content">
                                                         <h5>Edukation Services</h5>
@@ -174,7 +174,7 @@ const Aboutpage = () => {
                                                 </div>
                                                 <div className="about-item">
                                                     <div className="about-item-icon">
-                                                        <img src="./src/assets/img/icon/global-education.svg" alt="" />
+                                                        <img src="/img/icon/global-education.svg" alt="" />
                                                     </div>
                                                     <div className="about-item-content">
                                                         <h5>International Hubs</h5>
@@ -653,7 +653,7 @@ const Aboutpage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/01.jpg" alt="" />
+                                        <img src="/img/testimonial/01.jpg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Anthony Nicoll</h4>
@@ -680,7 +680,7 @@ const Aboutpage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/02.jpg" alt="" />
+                                        <img src="/img/testimonial/02.jpg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Richard Lock</h4>
@@ -707,7 +707,7 @@ const Aboutpage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/03.jpg" alt="" />
+                                        <img src="/img/testimonial/03.jpg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Randal Grand</h4>
@@ -734,7 +734,7 @@ const Aboutpage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/04.jpg" alt="" />
+                                        <img src="/img/testimonial/04.jpg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Edward Miles</h4>
@@ -761,7 +761,7 @@ const Aboutpage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/05.jpg" alt="" />
+                                        <img src="/img/testimonial/05.jpg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Ninal Gordon</h4>
@@ -801,7 +801,7 @@ const Aboutpage = () => {
                             <div className="col-md-6 col-lg-3">
                                 <div className="team-item wow fadeInUp" data-wow-delay=".25s">
                                     <div className="team-img">
-                                        <img src="./src/assets/img/team/01.jpg" alt="thumb" />
+                                        <img src="/img/team/01.jpg" alt="thumb" />
                                     </div>
                                     <div className="team-social">
                                         <a href="#">
@@ -833,7 +833,7 @@ const Aboutpage = () => {
                             <div className="col-md-6 col-lg-3">
                                 <div className="team-item wow fadeInUp" data-wow-delay=".50s">
                                     <div className="team-img">
-                                        <img src="./src/assets/img/team/02.jpg" alt="thumb" />
+                                        <img src="/img/team/02.jpg" alt="thumb" />
                                     </div>
                                     <div className="team-social">
                                         <a href="#">
@@ -865,7 +865,7 @@ const Aboutpage = () => {
                             <div className="col-md-6 col-lg-3">
                                 <div className="team-item wow fadeInUp" data-wow-delay=".75s">
                                     <div className="team-img">
-                                        <img src="./src/assets/img/team/03.jpg" alt="thumb" />
+                                        <img src="/img/team/03.jpg" alt="thumb" />
                                     </div>
                                     <div className="team-social">
                                         <a href="#">
@@ -897,7 +897,7 @@ const Aboutpage = () => {
                             <div className="col-md-6 col-lg-3">
                                 <div className="team-item wow fadeInUp" data-wow-delay="1s">
                                     <div className="team-img">
-                                        <img src="./src/assets/img/team/04.jpg" alt="thumb" />
+                                        <img src="/img/team/04.jpg" alt="thumb" />
                                     </div>
                                     <div className="team-social">
                                         <a href="#">
@@ -936,13 +936,13 @@ const Aboutpage = () => {
                 <div className="partner-area bg pt-50 pb-50">
                     <div className="container">
                         <div className="partner-wrapper partner-slider owl-carousel owl-theme">
-                            <img src="./src/assets/img/partner/01.png" alt="thumb" />
-                            <img src="./src/assets/img/partner/02.png" alt="thumb" />
-                            <img src="./src/assets/img/partner/03.png" alt="thumb" />
-                            <img src="./src/assets/img/partner/04.png" alt="thumb" />
-                            <img src="./src/assets/img/partner/01.png" alt="thumb" />
-                            <img src="./src/assets/img/partner/02.png" alt="thumb" />
-                            <img src="./src/assets/img/partner/04.png" alt="thumb" />
+                            <img src="/img/partner/01.png" alt="thumb" />
+                            <img src="/img/partner/02.png" alt="thumb" />
+                            <img src="/img/partner/03.png" alt="thumb" />
+                            <img src="/img/partner/04.png" alt="thumb" />
+                            <img src="/img/partner/01.png" alt="thumb" />
+                            <img src="/img/partner/02.png" alt="thumb" />
+                            <img src="/img/partner/04.png" alt="thumb" />
                         </div>
                     </div>
                 </div>

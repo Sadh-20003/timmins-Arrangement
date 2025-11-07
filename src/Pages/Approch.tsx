@@ -8,7 +8,7 @@ const Approch = () => {
             <section className='banner'>
                 {/* <div
                     className="site-breadcrumb"
-                    style={{ background: "url(./src/assets/img/breadcrumb/01.jpg)" }}
+                    style={{ background: "url(/img/breadcrumb/01.jpg)" }}
                 >
                     <div className="container">
                         <h2 className="breadcrumb-title">Terms Of Service</h2>

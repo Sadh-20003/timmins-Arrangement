@@ -1,24 +1,14 @@
-import React from 'react'
-
 const Footer = () => {
     return (
         <footer className="footer-area">
-            <div className="footer-shape">
-                <img src="./src/assets/img/shape/03.png" alt="" />
-            </div>
             <div className="footer-widget">
                 <div className="container">
-                    <div className="row footer-widget-wrapper pt-100 pb-70">
-                        <div className="col-md-6 col-lg-4">
+                    <div className="row footer-widget-wrapper pt-50 pb-20">
+                        <div className="col-md-12 text-center">
                             <div className="footer-widget-box about-us">
                                 <a href="#" className="footer-logo">
-                                    <img src="./src/assets/img/logo/logo.png" alt="" />
+                                    <img src="/img/logo/logo.png" alt="" />
                                 </a>
-                                <p className="mb-3">
-                                    We are many variations of passages available but the majority have
-                                    suffered alteration in some form by injected humour words
-                                    believable.
-                                </p>
                                 <ul className="footer-contact">
                                     <li>
                                         <a href="tel:+21236547898">
@@ -31,7 +21,7 @@ const Footer = () => {
                                         Malaysia: Menara Centara, Kuala Lumpur
                                     </li>
                                     <li>
-                                        <a href="https://live.themewild.com/cdn-cgi/l/email-protection#7d14131b123d18051c100d1118531e1210">
+                                        <a href="#">
                                             <i className="far fa-envelope" />
                                             <span
                                                 className="__cf_email__"
@@ -44,9 +34,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-2">
+                        <div className="col-md-12">
                             <div className="footer-widget-box list">
-                                <h4 className="footer-widget-title">Quick Links</h4>
                                 <ul className="footer-list">
                                     <li>
                                         <a href="#">
@@ -79,64 +68,6 @@ const Footer = () => {
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        {/* <div className="col-md-6 col-lg-3">
-                            <div className="footer-widget-box list">
-                                <h4 className="footer-widget-title">Our Campus</h4>
-                                <ul className="footer-list">
-                                    <li>
-                                        <a href="#">
-                                            <i className="fas fa-caret-right" /> Campus Safety
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fas fa-caret-right" /> Student Activities
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fas fa-caret-right" /> Academic Department
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fas fa-caret-right" /> Planning &amp;
-                                            Administration
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fas fa-caret-right" /> Office Of The Chancellor
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fas fa-caret-right" /> Facility Services
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> */}
-                        <div className="col-md-6 col-lg-3">
-                            <div className="footer-widget-box list">
-                                <h4 className="footer-widget-title">Newsletter</h4>
-                                <div className="footer-newsletter">
-                                    <p>Subscribe Our Newsletter To Get Latest Update And News</p>
-                                    <div className="subscribe-form">
-                                        <form action="#">
-                                            <input
-                                                type="email"
-                                                className="form-control"
-                                                placeholder="Your Email"
-                                            />
-                                            <button className="theme-btn" type="submit">
-                                                Subscribe Now <i className="far fa-paper-plane" />
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

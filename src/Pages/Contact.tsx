@@ -31,7 +31,7 @@ const Contact = () => {
         <section className='breadcrumb'>
           <div
             className="site-breadcrumb"
-            style={{ background: "url(./src/assets/img/breadcrumb/01.jpg)" }}
+            style={{ background: "url(/img/breadcrumb/01.jpg)" }}
           >
             <div className="container">
               <h2 className="breadcrumb-title">Contact Us</h2>
@@ -109,7 +109,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-5">
                     <div className="contact-img">
-                      <img src="./src/assets/img/contact/01.jpg" alt="" />
+                      <img src="/img/contact/01.jpg" alt="" />
                     </div>
                   </div>
                   <div className="col-lg-7 align-self-center">
@@ -339,7 +339,7 @@ const Contact = () => {
                 <div className="col-lg-8 wow fadeInRight" data-wow-delay=".25s">
                   <div
                     className="video-content"
-                    style={{ backgroundImage: "url(./src/assets/img/video/01.jpg)" }}
+                    style={{ backgroundImage: "url(/img/video/01.jpg)" }}
                   >
                     <div className="row align-items-center">
                       <div className="col-lg-12">
