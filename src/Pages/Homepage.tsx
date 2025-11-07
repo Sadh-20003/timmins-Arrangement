@@ -19,12 +19,12 @@ const Homepage = () => {
                     "<i class='far fa-long-arrow-right'></i>"
                 ],
 
-                onInitialized: function(event) {
+                onInitialized: function (event) {
                     var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
                     doAnimations($firstAnimatingElements);
                 },
 
-                onChanged: function(event){
+                onChanged: function (event) {
                     var $firstAnimatingElements = $('.owl-item').eq(event.item.index).find("[data-animation]");
                     doAnimations($firstAnimatingElements);
                 }
@@ -111,40 +111,59 @@ const Homepage = () => {
                                                     data-delay=".25s"
                                                 >
                                                     <i className="far fa-book-open-reader" />
-                                                    Welcome To Eduka!
+                                                    Empowering Teams. Enabling Growth.
                                                 </h6>
                                                 <h1
                                                     className="hero-title"
                                                     data-animation="fadeInRight"
                                                     data-delay=".50s"
                                                 >
-                                                    Start Your Beautiful And <span>Bright</span> Future
+                                                    10 Years of HRDC-Claimable <span>HRDC-Claimable</span> Learning Excellence.
                                                 </h1>
                                                 <p data-animation="fadeInLeft" data-delay=".75s">
-                                                    There are many variations of passages orem psum available but
-                                                    the majority have suffered alteration in some repeat
-                                                    predefined chunks form injected humour.
+                                                    For over a decade, Timmins Training Consulting has delivered HRDC-claimable corporate training programs that transform how people learn, grow, and perform — across AI, 5G, Embedded Systems, Cloud, and Data Analytics.
                                                 </p>
+
+                                                <h6
+                                                    className="hero-sub-title"
+                                                    data-animation="fadeInDown"
+                                                    data-delay=".25s"
+                                                >
+                                                    <i className="far fa-book-open-reader" />
+                                                    All Courses Are HRDC-Claimable
+
+                                                </h6>
+
                                                 <div
                                                     className="hero-btn"
                                                     data-animation="fadeInUp"
                                                     data-delay="1s"
                                                 >
                                                     <a href="about.html" className="theme-btn">
-                                                        About More
+                                                        Explore Course
                                                         <i className="fas fa-arrow-right-long" />
                                                     </a>
-                                                    <a href="contact.html" className="theme-btn theme-btn2">
-                                                        Learn More
+                                                    <a href="contact.html" className="theme-btn theme-btn3">
+                                                        Join a public class
                                                         <i className="fas fa-arrow-right-long" />
                                                     </a>
+
+                                                    <a href="contact.html" className="theme-btn  theme-btn4">
+                                                        Download company Profile
+                                                        <i className="fas fa-arrow-right-long" />
+                                                    </a>
+
+
+
+
+
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div
+                            {/* <div
                                 className="hero-single"
                                 style={{ background: "url(./src/assets/img/slider/slider-2.jpg)" }}
                             >
@@ -158,19 +177,19 @@ const Homepage = () => {
                                                     data-delay=".25s"
                                                 >
                                                     <i className="far fa-book-open-reader" />
-                                                    Welcome To Eduka!
+
+                                                    Empowering Teams. Enabling Growth.
+
                                                 </h6>
                                                 <h1
                                                     className="hero-title"
                                                     data-animation="fadeInRight"
                                                     data-delay=".50s"
                                                 >
-                                                    Start Your Beautiful And <span>Bright</span> Future
+                                                    10 Years of <span>HRDC-Claimable</span> Learning Excellenc
                                                 </h1>
                                                 <p data-animation="fadeInLeft" data-delay=".75s">
-                                                    There are many variations of passages orem psum available but
-                                                    the majority have suffered alteration in some repeat
-                                                    predefined chunks form injected humour.
+                                                    For over a decade, Timmins Training Consulting has delivered HRDC-claimable corporate training programs that transform how people learn, grow, and perform — across AI, 5G, Embedded Systems, Cloud, and Data Analytics.
                                                 </p>
                                                 <div
                                                     className="hero-btn"
@@ -190,8 +209,8 @@ const Homepage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div
+                            </div> */}
+                            {/* <div
                                 className="hero-single"
                                 style={{ background: "url(./src/assets/img/slider/slider-3.jpg)" }}
                             >
@@ -237,7 +256,7 @@ const Homepage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </main>
@@ -281,17 +300,16 @@ const Homepage = () => {
                                 <div className="about-right wow fadeInRight" data-wow-delay=".25s">
                                     <div className="site-heading mb-3">
                                         <span className="site-title-tagline">
-                                            <i className="far fa-book-open-reader" /> About Us
+                                            <i className="far fa-book-open-reader" />HRDC TRUST STRIP
                                         </span>
                                         <h2 className="site-title">
-                                            Our Edukation System <span>Inspires</span> You More.
+                                            Your Trusted HRD Corp Registered Training Provider
+
                                         </h2>
                                     </div>
                                     <p className="about-text">
-                                        There are many variations of passages available but the majority
-                                        have suffered alteration in some form by injected humour randomised
-                                        words which don't look even slightly believable. If you are going to
-                                        use passage.
+                                        Every Timmins course is HRDC-claimable — complete with documentation, claim support, and attendance reporting.
+                                        We make compliance simple so your team can focus on learning.
                                     </p>
                                     <div className="about-content">
                                         <div className="row">
@@ -301,11 +319,11 @@ const Homepage = () => {
                                                         <img src="./src/assets/img/icon/open-book.svg" alt="" />
                                                     </div>
                                                     <div className="about-item-content">
-                                                        <h5>Edukation Services</h5>
-                                                        <p>
+                                                        <h5>Documentation</h5>
+                                                        {/* <p>
                                                             It is a long established fact that reader will to using
                                                             content.
-                                                        </p>
+                                                        </p> */}
                                                     </div>
                                                 </div>
                                                 <div className="about-item">
@@ -313,27 +331,29 @@ const Homepage = () => {
                                                         <img src="./src/assets/img/icon/global-education.svg" alt="" />
                                                     </div>
                                                     <div className="about-item-content">
-                                                        <h5>International Hubs</h5>
-                                                        <p>
+                                                        <h5>Claim Support</h5>
+                                                        {/* <p>
                                                             It is a long established fact that reader will to using
                                                             content.
-                                                        </p>
+                                                        </p> */}
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-md-5">
-                                                <div className="about-quote">
-                                                    <p>
-                                                        It is a long established fact that a reader will be
-                                                        distracted by the content of a page when looking at its
-                                                        reader for the long words layout.
-                                                    </p>
-                                                    <i className="far fa-quote-right" />
+                                            <div className="about-item">
+                                                <div className="about-item-icon">
+                                                    <img src="./src/assets/img/icon/global-education.svg" alt="" />
+                                                </div>
+                                                <div className="about-item-content">
+                                                    <h5> Training Reports</h5>
+                                                    {/* <p>
+                                                            It is a long established fact that reader will to using
+                                                            content.
+                                                        </p> */}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="about-bottom">
+                                    {/* <div className="about-bottom">
                                         <a href="about.html" className="theme-btn">
                                             Discover More
                                             <i className="fas fa-arrow-right-long" />
@@ -349,7 +369,7 @@ const Homepage = () => {
                                                 </h6>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -360,362 +380,79 @@ const Homepage = () => {
             </section>
 
 
-            {/* <section className='course'>
 
-                <div className="course-area py-120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 mx-auto">
-                                <div className="site-heading text-center">
-                                    <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Our Courses
-                                    </span>
-                                    <h2 className="site-title">
-                                        Let's Check Our <span>Courses</span>
-                                    </h2>
-                                    <p>
-                                        It is a long established fact that a reader will be distracted by
-                                        the readable content of a page when looking at its layout.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-6 col-lg-4">
-                                <div className="course-item wow fadeInUp" data-wow-delay=".25s">
-                                    <div className="course-img">
-                                        <span className="course-tag">
-                                            <i className="far fa-bookmark" /> Drama
-                                        </span>
-                                        <img src="./src/assets/img/course/01.jpg" alt="" />
-                                        <a href="course-single.html" className="btn">
-                                            <i className="far fa-link" />
-                                        </a>
-                                    </div>
-                                    <div className="course-content">
-                                        <div className="course-meta">
-                                            <span className="course-meta-left">
-                                                <i className="far fa-book" /> 10 Lessons
-                                            </span>
-                                            <div className="course-rating">
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="far fa-star" />
-                                                <span>(4.0)</span>
-                                            </div>
-                                        </div>
-                                        <h4 className="course-title">
-                                            <a href="course-single.html">Acting And Drama</a>
-                                        </h4>
-                                        <p className="course-text">
-                                            There are many variations of passages orem psum available but the
-                                            majority have suffer alteration in some form by injected.
-                                        </p>
-                                        <div className="course-bottom">
-                                            <div className="course-bottom-left">
-                                                <span>
-                                                    <i className="far fa-users" />
-                                                    75 Seats
-                                                </span>
-                                                <span>
-                                                    <i className="far fa-clock" />
-                                                    04 Years
-                                                </span>
-                                            </div>
-                                            <span className="course-price">$750</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4">
-                                <div className="course-item wow fadeInUp" data-wow-delay=".50s">
-                                    <div className="course-img">
-                                        <span className="course-tag">
-                                            <i className="far fa-bookmark" /> Design
-                                        </span>
-                                        <img src="./src/assets/img/course/02.jpg" alt="" />
-                                        <a href="course-single.html" className="btn">
-                                            <i className="far fa-link" />
-                                        </a>
-                                    </div>
-                                    <div className="course-content">
-                                        <div className="course-meta">
-                                            <span className="course-meta-left">
-                                                <i className="far fa-book" /> 10 Lessons
-                                            </span>
-                                            <div className="course-rating">
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="far fa-star" />
-                                                <span>(4.0)</span>
-                                            </div>
-                                        </div>
-                                        <h4 className="course-title">
-                                            <a href="course-single.html">Art And Design</a>
-                                        </h4>
-                                        <p className="course-text">
-                                            There are many variations of passages orem psum available but the
-                                            majority have suffer alteration in some form by injected.
-                                        </p>
-                                        <div className="course-bottom">
-                                            <div className="course-bottom-left">
-                                                <span>
-                                                    <i className="far fa-users" />
-                                                    75 Seats
-                                                </span>
-                                                <span>
-                                                    <i className="far fa-clock" />
-                                                    04 Years
-                                                </span>
-                                            </div>
-                                            <span className="course-price">$750</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4">
-                                <div className="course-item wow fadeInUp" data-wow-delay=".75s">
-                                    <div className="course-img">
-                                        <span className="course-tag">
-                                            <i className="far fa-bookmark" /> Science
-                                        </span>
-                                        <img src="./src/assets/img/course/03.jpg" alt="" />
-                                        <a href="course-single.html" className="btn">
-                                            <i className="far fa-link" />
-                                        </a>
-                                    </div>
-                                    <div className="course-content">
-                                        <div className="course-meta">
-                                            <span className="course-meta-left">
-                                                <i className="far fa-book" /> 10 Lessons
-                                            </span>
-                                            <div className="course-rating">
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="far fa-star" />
-                                                <span>(4.0)</span>
-                                            </div>
-                                        </div>
-                                        <h4 className="course-title">
-                                            <a href="course-single.html">Biology And Conservation</a>
-                                        </h4>
-                                        <p className="course-text">
-                                            There are many variations of passages orem psum available but the
-                                            majority have suffer alteration in some form by injected.
-                                        </p>
-                                        <div className="course-bottom">
-                                            <div className="course-bottom-left">
-                                                <span>
-                                                    <i className="far fa-users" />
-                                                    75 Seats
-                                                </span>
-                                                <span>
-                                                    <i className="far fa-clock" />
-                                                    04 Years
-                                                </span>
-                                            </div>
-                                            <span className="course-price">$750</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4">
-                                <div className="course-item wow fadeInUp" data-wow-delay=".25s">
-                                    <div className="course-img">
-                                        <span className="course-tag">
-                                            <i className="far fa-bookmark" /> Science
-                                        </span>
-                                        <img src="./src/assets/img/course/04.jpg" alt="" />
-                                        <a href="course-single.html" className="btn">
-                                            <i className="far fa-link" />
-                                        </a>
-                                    </div>
-                                    <div className="course-content">
-                                        <div className="course-meta">
-                                            <span className="course-meta-left">
-                                                <i className="far fa-book" /> 10 Lessons
-                                            </span>
-                                            <div className="course-rating">
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="far fa-star" />
-                                                <span>(4.0)</span>
-                                            </div>
-                                        </div>
-                                        <h4 className="course-title">
-                                            <a href="course-single.html">Science And Engineering</a>
-                                        </h4>
-                                        <p className="course-text">
-                                            There are many variations of passages orem psum available but the
-                                            majority have suffer alteration in some form by injected.
-                                        </p>
-                                        <div className="course-bottom">
-                                            <div className="course-bottom-left">
-                                                <span>
-                                                    <i className="far fa-users" />
-                                                    75 Seats
-                                                </span>
-                                                <span>
-                                                    <i className="far fa-clock" />
-                                                    04 Years
-                                                </span>
-                                            </div>
-                                            <span className="course-price">$750</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4">
-                                <div className="course-item wow fadeInUp" data-wow-delay=".50s">
-                                    <div className="course-img">
-                                        <span className="course-tag">
-                                            <i className="far fa-bookmark" /> Health
-                                        </span>
-                                        <img src="./src/assets/img/course/05.jpg" alt="" />
-                                        <a href="course-single.html" className="btn">
-                                            <i className="far fa-link" />
-                                        </a>
-                                    </div>
-                                    <div className="course-content">
-                                        <div className="course-meta">
-                                            <span className="course-meta-left">
-                                                <i className="far fa-book" /> 10 Lessons
-                                            </span>
-                                            <div className="course-rating">
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="far fa-star" />
-                                                <span>(4.0)</span>
-                                            </div>
-                                        </div>
-                                        <h4 className="course-title">
-                                            <a href="course-single.html">Health Administration</a>
-                                        </h4>
-                                        <p className="course-text">
-                                            There are many variations of passages orem psum available but the
-                                            majority have suffer alteration in some form by injected.
-                                        </p>
-                                        <div className="course-bottom">
-                                            <div className="course-bottom-left">
-                                                <span>
-                                                    <i className="far fa-users" />
-                                                    75 Seats
-                                                </span>
-                                                <span>
-                                                    <i className="far fa-clock" />
-                                                    04 Years
-                                                </span>
-                                            </div>
-                                            <span className="course-price">$750</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4">
-                                <div className="course-item wow fadeInUp" data-wow-delay=".75s">
-                                    <div className="course-img">
-                                        <span className="course-tag">
-                                            <i className="far fa-bookmark" /> Finance
-                                        </span>
-                                        <img src="./src/assets/img/course/06.jpg" alt="" />
-                                        <a href="course-single.html" className="btn">
-                                            <i className="far fa-link" />
-                                        </a>
-                                    </div>
-                                    <div className="course-content">
-                                        <div className="course-meta">
-                                            <span className="course-meta-left">
-                                                <i className="far fa-book" /> 10 Lessons
-                                            </span>
-                                            <div className="course-rating">
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="fas fa-star" />
-                                                <i className="far fa-star" />
-                                                <span>(4.0)</span>
-                                            </div>
-                                        </div>
-                                        <h4 className="course-title">
-                                            <a href="course-single.html">Accounting And Finance</a>
-                                        </h4>
-                                        <p className="course-text">
-                                            There are many variations of passages orem psum available but the
-                                            majority have suffer alteration in some form by injected.
-                                        </p>
-                                        <div className="course-bottom">
-                                            <div className="course-bottom-left">
-                                                <span>
-                                                    <i className="far fa-users" />
-                                                    75 Seats
-                                                </span>
-                                                <span>
-                                                    <i className="far fa-clock" />
-                                                    04 Years
-                                                </span>
-                                            </div>
-                                            <span className="course-price">$750</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </section> */}
 
             <section className='celebration'>
-                <div className="video-area">
+                <div className="how-apply pt-120 pb-80">
                     <div className="container">
-                        <div className="row g-4">
-                            <div className="col-lg-4 wow fadeInLeft" data-wow-delay=".25s">
-                                <div className="site-heading mb-3">
-                                    <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Latest Video
-                                    </span>
-                                    <h2 className="site-title">
-                                        Let's Check Our <span>Latest</span> Video
-                                    </h2>
-                                </div>
-                                <p className="about-text">
-                                    There are many variations of passages available but the majority have
-                                    suffered alteration in some form by injected humour look even slightly
-                                    believable.
-                                </p>
-                                <a href="about.html" className="theme-btn mt-30">
-                                    Learn More
-                                    <i className="fas fa-arrow-right-long" />
-                                </a>
-                            </div>
-                            <div className="col-lg-8 wow fadeInRight" data-wow-delay=".25s">
-                                <div
-                                    className="video-content"
-                                    style={{ backgroundImage: "url(./src/assets/img/video/01.jpg)" }}
-                                >
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-12">
-                                            <div className="video-wrapper">
-                                                <a
-                                                    className="play-btn popup-youtube"
-                                                    href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                                                >
-                                                    <i className="fas fa-play" />
-                                                </a>
-                                            </div>
-                                        </div>
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="content-info wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="site-heading mb-3">
+                                        <span className="site-title-tagline">
+                                            <i className="far fa-book-open-reader" /> Timmins
+                                        </span>
+                                        <h2 className="site-title">
+                                            CELEBRATING <span>10 YEARS</span> OF IMPACT (2015–2025)
+                                        </h2>
                                     </div>
+                                    <p className="content-text">
+                                        10 Years of Timmins — A Decade of Learning, Growth & Innovation
+                                        Founded in Malaysia in 2015, Timmins has grown into a trusted global partner for corporate learning — expanding to Indonesia in 2017 and Canada in 2019.
+                                        Over 10 years, we’ve empowered 5,000+ professionals, delivered 200+ customized programs, and partnered with 100+ global clients.
+                                        10 years of innovation. 10 years of partnership. 10 years of measurable impact.
+
+                                    </p>
+                                    {/* <p className="content-text mt-2">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                        accusantium veritatis et quasi architecto beatae vitae dicta sunt
+                                        explicabo.
+                                    </p> */}
+                                    {/* <div className="row my-3">
+                                        <div className="col-md-6">
+                                            <ul className="content-list">
+                                                <li>
+                                                    <i className="fas fa-check-circle" />
+                                                    Start Online Submission
+                                                </li>
+                                                <li>
+                                                    <i className="fas fa-check-circle" />
+                                                    Submit The Form
+                                                </li>
+                                                <li>
+                                                    <i className="fas fa-check-circle" />
+                                                    Review The Submission
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <ul className="content-list">
+                                                <li>
+                                                    <i className="fas fa-check-circle" />
+                                                    Gather Necessary Documents
+                                                </li>
+                                                <li>
+                                                    <i className="fas fa-check-circle" />
+                                                    Interviewing Process
+                                                </li>
+                                                <li>
+                                                    <i className="fas fa-check-circle" />
+                                                    Last Decision
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div> */}
+                                    <div className="content-btn">
+                                        <a href="#" className="theme-btn">
+                                            Apply Now
+                                            <i className="fas fa-arrow-right-long" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="content-img wow fadeInRight" data-wow-delay=".25s">
+                                    <img src="./src/assets/img/apply/celebration.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -723,322 +460,295 @@ const Homepage = () => {
                 </div>
 
 
-                <section className='why timmins'>
-                    <div className="choose-area pt-80 pb-80">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-lg-6">
-                                    <div className="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div className="choose-content-info">
-                                            <div className="site-heading mb-0">
-                                                <span className="site-title-tagline">
-                                                    <i className="far fa-book-open-reader" /> Why Choose Us
-                                                </span>
-                                                <h2 className="site-title text-white mb-10">
-                                                    We Are Expert &amp; <span>Do Our Best</span> For Your Goal
-                                                </h2>
-                                                <p className="text-white">
-                                                    It is a long established fact that a reader will be distracted
-                                                    by the readable content of a page when many desktop and web page
-                                                    editors looking at its layout.
-                                                </p>
-                                            </div>
-                                            <div className="choose-content-wrap">
-                                                <div className="row g-4">
-                                                    <div className="col-md-6">
-                                                        <div className="choose-item">
-                                                            <div className="choose-item-icon">
-                                                                <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
-                                                            </div>
-                                                            <div className="choose-item-info">
-                                                                <h4>Expert Teachers</h4>
-                                                                <p>There are many variation of the suffered.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <div className="choose-item">
-                                                            <div className="choose-item-icon">
-                                                                <img src="./src/assets/img/icon/course-material.svg" alt="" />
-                                                            </div>
-                                                            <div className="choose-item-info">
-                                                                <h4>Courses Material</h4>
-                                                                <p>There are many variation of the suffered.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <div className="choose-item">
-                                                            <div className="choose-item-icon">
-                                                                <img src="./src/assets/img/icon/online-course.svg" alt="" />
-                                                            </div>
-                                                            <div className="choose-item-info">
-                                                                <h4>Online Courses</h4>
-                                                                <p>There are many variation of the suffered.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-6">
-                                                        <div className="choose-item">
-                                                            <div className="choose-item-icon">
-                                                                <img src="./src/assets/img/icon/money.svg" alt="" />
-                                                            </div>
-                                                            <div className="choose-item-info">
-                                                                <h4>Affordable Price</h4>
-                                                                <p>There are many variation of the suffered.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
+
+
+            </section>
+
+
+
+            <section className='STATS'>
+                <div className="counter-area pt-60 pb-60">
+                    <div className="container">
+                        <span className="site-title-tagline">
+                            <i className="far fa-book-open-reader" />  Our Global Footprint in Numbers
+                        </span>
+                        <div className="row">
+
+                            <div className="col-lg-3 col-sm-6">
+                                <div className="counter-box">
+
+                                    <div className="icon">
+                                        <img src="./src/assets/img/icon/course.svg" alt="" />
                                     </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="choose-img wow fadeInRight" data-wow-delay=".25s">
-                                        <img src="./src/assets/img/choose/01.jpg" alt="" />
+                                    <div>
+                                        <span
+                                            className="counter"
+                                            data-count="+"
+                                            data-to={500}
+                                            data-speed={3000}
+                                        >
+
+                                            200+
+
+
+                                        </span>
+                                        <h6 className="title">+Customized Courses </h6>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                </section>
-
-
-
-                <section className='STATS'>
-                    <div className="counter-area pt-60 pb-60">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-3 col-sm-6">
-                                    <div className="counter-box">
-                                        <div className="icon">
-                                            <img src="./src/assets/img/icon/course.svg" alt="" />
-                                        </div>
-                                        <div>
-                                            <span
-                                                className="counter"
-                                                data-count="+"
-                                                data-to={500}
-                                                data-speed={3000}
-                                            >
-                                                500
-                                            </span>
-                                            <h6 className="title">+ Total Cources </h6>
-                                        </div>
+                            <div className="col-lg-3 col-sm-6">
+                                <div className="counter-box">
+                                    <div className="icon">
+                                        <img src="./src/assets/img/icon/graduation.svg" alt="" />
                                     </div>
-                                </div>
-                                <div className="col-lg-3 col-sm-6">
-                                    <div className="counter-box">
-                                        <div className="icon">
-                                            <img src="./src/assets/img/icon/graduation.svg" alt="" />
-                                        </div>
-                                        <div>
-                                            <span
-                                                className="counter"
-                                                data-count="+"
-                                                data-to={1900}
-                                                data-speed={3000}
-                                            >
-                                                1900
-                                            </span>
-                                            <h6 className="title">+ Our Students</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-sm-6">
-                                    <div className="counter-box">
-                                        <div className="icon">
-                                            <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
-                                        </div>
-                                        <div>
-                                            <span
-                                                className="counter"
-                                                data-count="+"
-                                                data-to={750}
-                                                data-speed={3000}
-                                            >
-                                                750
-                                            </span>
-                                            <h6 className="title">+ Skilled Lecturers</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-sm-6">
-                                    <div className="counter-box">
-                                        <div className="icon">
-                                            <img src="./src/assets/img/icon/award.svg" alt="" />
-                                        </div>
-                                        <div>
-                                            <span
-                                                className="counter"
-                                                data-count="+"
-                                                data-to={30}
-                                                data-speed={3000}
-                                            >
-                                                30
-                                            </span>
-                                            <h6 className="title">+ Win Awards</h6>
-                                        </div>
+                                    <div>
+                                        <span
+                                            className="counter"
+                                            data-count="+"
+                                            data-to={1900}
+                                            data-speed={3000}
+                                        >
+                                            5,000
+                                        </span>
+                                        <h6 className="title">+ Professionals Trained</h6>
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-lg-3 col-sm-6">
+                                <div className="counter-box">
+                                    <div className="icon">
+                                        <img src="./src/assets/img/icon/teacher-2.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span
+                                            className="counter"
+                                            data-count="+"
+                                            data-to={750}
+                                            data-speed={3000}
+                                        >
+                                            100
+                                        </span>
+                                        <h6 className="title">+ Corporate Clients</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-sm-6">
+                                <div className="counter-box">
+                                    <div className="icon">
+                                        <img src="./src/assets/img/icon/award.svg" alt="" />
+                                    </div>
+                                    <div>
+                                        <span
+                                            className="counter"
+                                            data-count="+"
+                                            data-to={30}
+                                            data-speed={3000}
+                                        >
+                                            10+
+                                        </span>
+                                        <h6 className="title">+ Countries Reached</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="teacher-single.html">Languages Delivered
+                                    English & Mandarin
+
+                                </a>
+                            </h5>
+                            {/* <p className="text-white">
+                                From Malaysia to Canada, Timmins continues to build capability across Asia and North America — bringing global expertise to every learning experience.
+
+                            </p> */}
+                            {/* <div className="contact-map">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194156103!2d-74.03927096447748!3d40.759040329405195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a01c8df6fb3cb8!2sSolomon%20R.%20Guggenheim%20Museum!5e0!3m2!1sen!2sbd!4v1619410634508!5m2!1sen!2s"
+                                        style={{ border: 0 }}
+                                        // allowFullScreen="yes"
+                                        loading="lazy"
+                                    />
+                                </div> */}
+
                         </div>
                     </div>
+                </div>
 
-                </section>
+            </section>
+
+            <section className='map'>
+                <div className="map-container">
+                    <div className="map-card">
+                        <h2 className="map-title">From Malaysia to Canada, Timmins continues to build capability across Asia and North America — bringing global expertise to every learning experience.</h2>
+                        <div className="map-frame">
+                            <iframe
+                                title="Guggenheim Museum Map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194156103!2d-74.03927096447748!3d40.759040329405195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a01c8df6fb3cb8!2sSolomon%20R.%20Guggenheim%20Museum!5e0!3m2!1sen!2sbd!4v1619410634508!5m2!1sen!2s"
+                                width="100%"
+                                height="400"
+                                style={{ border: 0 }}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-            </section >
+
             <section className='solution'>
-                <div className="team-area py-120">
+                <div className="portfolio-area py-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mx-auto">
                                 <div className="site-heading text-center">
                                     <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Our Teachers
+                                        <i className="far fa-book-open-reader" /> Solution
                                     </span>
                                     <h2 className="site-title">
-                                        Meet With Our <span>Teachers</span>
+                                        <span> End-to-End </span> Learning for Every Stage”
                                     </h2>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by
-                                        the readable content of a page when looking at its layout.
+                                        We deliver structured, HRDC-claimable learning solutions designed for every phase of workforce growth.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 col-lg-3">
-                                <div className="team-item wow fadeInUp" data-wow-delay=".25s">
-                                    <div className="team-img">
-                                        <img src="./src/assets/img/team/01.jpg" alt="thumb" />
+                            <div className="col-md-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio-img">
+                                        <img src="./src/assets/img/portfolio/01.jpg" alt="" />
                                     </div>
-                                    <div className="team-social">
-                                        <a href="#">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-whatsapp" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-linkedin-in" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-youtube" />
-                                        </a>
-                                    </div>
-                                    <div className="team-content">
-                                        <div className="team-bio">
-                                            <h5>
-                                                <a href="teacher-single.html">Angela T. Vigil</a>
-                                            </h5>
-                                            <span>Associate Professor</span>
+                                    <div className="portfolio-content">
+                                        <div className="portfolio-info">
+                                            <div className="portfolio-title-info">
+                                                <h5 className="portfolio-subtitle">
+                                                    <span></span>Fresh Graduate Onboarding
+                                                </h5>
+                                                <a href="#">
+                                                    <h4 className="portfolio-title">Transform fresh hires into project-ready professionals.</h4>
+                                                </a>
+                                            </div>
+                                            <a href="#" className="portfolio-btn">
+                                                <i className="far fa-arrow-right" />
+                                            </a>
                                         </div>
                                     </div>
-                                    <span className="team-social-btn">
-                                        <i className="far fa-share-nodes" />
-                                    </span>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-3">
-                                <div className="team-item wow fadeInUp" data-wow-delay=".50s">
-                                    <div className="team-img">
-                                        <img src="./src/assets/img/team/02.jpg" alt="thumb" />
+                            <div className="col-md-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio-img">
+                                        <img src="./src/assets/img/portfolio/04.jpg" alt="" />
                                     </div>
-                                    <div className="team-social">
-                                        <a href="#">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-whatsapp" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-linkedin-in" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-youtube" />
-                                        </a>
-                                    </div>
-                                    <div className="team-content">
-                                        <div className="team-bio">
-                                            <h5>
-                                                <a href="teacher-single.html">Frank A. Mitchell</a>
-                                            </h5>
-                                            <span>Associate Professor</span>
+                                    <div className="portfolio-content">
+                                        <div className="portfolio-info">
+                                            <div className="portfolio-title-info">
+                                                <h5 className="portfolio-subtitle">
+                                                    <span></span> Upskill teams on AI, 5G, Cloud, and IoT.
+                                                </h5>
+                                                <a href="#">
+                                                    <h4 className="portfolio-title">Technology Transformation Programs</h4>
+                                                </a>
+                                            </div>
+                                            <a href="#" className="portfolio-btn">
+                                                <i className="far fa-arrow-right" />
+                                            </a>
                                         </div>
                                     </div>
-                                    <span className="team-social-btn">
-                                        <i className="far fa-share-nodes" />
-                                    </span>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-3">
-                                <div className="team-item wow fadeInUp" data-wow-delay=".75s">
-                                    <div className="team-img">
-                                        <img src="./src/assets/img/team/03.jpg" alt="thumb" />
+                            <div className="col-md-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio-img">
+                                        <img src="./src/assets/img/portfolio/03.jpg" alt="" />
                                     </div>
-                                    <div className="team-social">
-                                        <a href="#">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-whatsapp" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-linkedin-in" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-youtube" />
-                                        </a>
-                                    </div>
-                                    <div className="team-content">
-                                        <div className="team-bio">
-                                            <h5>
-                                                <a href="teacher-single.html">Susan D. Lunsford</a>
-                                            </h5>
-                                            <span>CEO &amp; Founder</span>
+                                    <div className="portfolio-content">
+                                        <div className="portfolio-info">
+                                            <div className="portfolio-title-info">
+                                                <h5 className="portfolio-subtitle">
+                                                    <span></span> Build your internal pool of certified trainers.
+                                                </h5>
+                                                <a href="#">
+                                                    <h4 className="portfolio-title">Prepare leaders for the digital age.</h4>
+                                                </a>
+                                            </div>
+                                            <a href="#" className="portfolio-btn">
+                                                <i className="far fa-arrow-right" />
+                                            </a>
                                         </div>
                                     </div>
-                                    <span className="team-social-btn">
-                                        <i className="far fa-share-nodes" />
-                                    </span>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-3">
-                                <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                                    <div className="team-img">
-                                        <img src="./src/assets/img/team/04.jpg" alt="thumb" />
+                            <div className="col-md-3">
+                                <div className="portfolio-item">
+                                    <div className="portfolio-img">
+                                        <img src="./src/assets/img/portfolio/06.jpg" alt="" />
                                     </div>
-                                    <div className="team-social">
-                                        <a href="#">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-whatsapp" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-linkedin-in" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-youtube" />
-                                        </a>
-                                    </div>
-                                    <div className="team-content">
-                                        <div className="team-bio">
-                                            <h5>
-                                                <a href="teacher-single.html">Dennis A. Pruitt</a>
-                                            </h5>
-                                            <span>Associate Professor</span>
+                                    <div className="portfolio-content">
+                                        <div className="portfolio-info">
+                                            <div className="portfolio-title-info">
+                                                <h5 className="portfolio-subtitle">
+                                                    <span></span> Leadership & C-Level Learning
+                                                </h5>
+                                                <a href="#">
+                                                    <h4 className="portfolio-title">Prepare leaders for the digital age.</h4>
+                                                </a>
+                                            </div>
+                                            <a href="#" className="portfolio-btn">
+                                                <i className="far fa-arrow-right" />
+                                            </a>
                                         </div>
                                     </div>
-                                    <span className="team-social-btn">
-                                        <i className="far fa-share-nodes" />
-                                    </span>
                                 </div>
                             </div>
+                            {/* <div className="col-md-4">
+                                <div className="portfolio-item">
+                                    <div className="portfolio-img">
+                                        <img src="assets/img/portfolio/05.html" alt="" />
+                                    </div>
+                                    <div className="portfolio-content">
+                                        <div className="portfolio-info">
+                                            <div className="portfolio-title-info">
+                                                <h5 className="portfolio-subtitle">
+                                                    <span>//</span> Health
+                                                </h5>
+                                                <a href="#">
+                                                    <h4 className="portfolio-title">Student Health Care</h4>
+                                                </a>
+                                            </div>
+                                            <a href="#" className="portfolio-btn">
+                                                <i className="far fa-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-md-4">
+                                <div className="portfolio-item">
+                                    <div className="portfolio-img">
+                                        <img src="assets/img/portfolio/06.jpg" alt="" />
+                                    </div>
+                                    <div className="portfolio-content">
+                                        <div className="portfolio-info">
+                                            <div className="portfolio-title-info">
+                                                <h5 className="portfolio-subtitle">
+                                                    <span>//</span> Health
+                                                </h5>
+                                                <a href="#">
+                                                    <h4 className="portfolio-title">Student Health Care</h4>
+                                                </a>
+                                            </div>
+                                            <a href="#" className="portfolio-btn">
+                                                <i className="far fa-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -1049,73 +759,86 @@ const Homepage = () => {
 
 
 
-            <section className='feature'>
+            {/* <section className='feature'>
                 <div className="feature-area fa-negative">
                     <div className="col-xl-9 ms-auto">
                         <div className="feature-wrapper">
+                            <span className="site-title-tagline">
+                                <i className="far fa-book-open-reader" />  FEATURED COURSES
+                            </span>
+                            <h2 className="site-title">
+                                Explore Our <span>Most-Requested</span> Programs
+                            </h2>
+                            <h5>
+                                <a href="teacher-single.html">  All programs are HRDC-claimable and led by subject matter experts.</a>
+                            </h5>
                             <div className="row g-4">
                                 <div className="col-md-6 col-lg-3">
                                     <div className="feature-item">
-                                        <span className="count">01</span>
+                                        <span className="count">5 Days</span>
                                         <div className="feature-icon">
                                             <img src="./src/assets/img/icon/scholarship.svg" alt="" />
                                         </div>
                                         <div className="feature-content">
-                                            <h4 className="feature-title">Scholarship Facility</h4>
+                                            <h4 className="feature-title">Face-to-Face</h4>
                                             <p>
-                                                It is a long established fact that a reader will be distracted.
+                                                Embedded Linux System Internals
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-lg-3">
                                     <div className="feature-item">
-                                        <span className="count">02</span>
+                                        <span className="count">2 Days</span>
                                         <div className="feature-icon">
                                             <img src="./src/assets/img/icon/teacher.svg" alt="" />
                                         </div>
                                         <div className="feature-content">
-                                            <h4 className="feature-title">Skilled Lecturers</h4>
+                                            <h4 className="feature-title">Face-to-Face</h4>
                                             <p>
-                                                It is a long established fact that a reader will be distracted.
+                                                Power BI: From Data to Decisions
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-lg-3">
                                     <div className="feature-item">
-                                        <span className="count">03</span>
+                                        <span className="count">2 Days</span>
                                         <div className="feature-icon">
                                             <img src="./src/assets/img/icon/library.svg" alt="" />
                                         </div>
                                         <div className="feature-content">
-                                            <h4 className="feature-title">Book Library Facility</h4>
+                                            <h4 className="feature-title">Online</h4>
                                             <p>
-                                                It is a long established fact that a reader will be distracted.
+                                                Generative AI with LangChain
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-lg-3">
                                     <div className="feature-item">
-                                        <span className="count">04</span>
+                                        <span className="count">4 Days</span>
                                         <div className="feature-icon">
                                             <img src="./src/assets/img/icon/money.svg" alt="" />
                                         </div>
                                         <div className="feature-content">
-                                            <h4 className="feature-title">Affordable Price</h4>
+                                            <h4 className="feature-title">Face-to-Face</h4>
                                             <p>
-                                                It is a long established fact that a reader will be distracted.
+                                                Kotlin Fundamentals
                                             </p>
                                         </div>
                                     </div>
                                 </div>
+                                <a href="about.html" className="theme-btn mt-30">
+                                    View Full Course Catalog
+                                    <i className="fas fa-arrow-right-long" />
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            </section>
+            </section> */}
 
 
             {/* <section className='enroll'>
@@ -1234,147 +957,26 @@ const Homepage = () => {
             </section> */}
 
             <section className='Scaled Agile'>
-                <div className="department-area bg py-120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 mx-auto">
-                                <div className="site-heading text-center">
-                                    <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Department
-                                    </span>
-                                    <h2 className="site-title">
-                                        Browse Our <span>Department</span>
-                                    </h2>
-                                    <p>
-                                        It is a long established fact that a reader will be distracted by
-                                        the readable content of a page when looking at its layout.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="department-slider owl-carousel owl-theme">
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/monitor.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Business And Finance</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/law.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Law And Criminology</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/data.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">IT And Data Science</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/health.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Health And Medicine</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="department-item">
-                                <div className="department-icon">
-                                    <img src="./src/assets/img/icon/art.svg" alt="" />
-                                </div>
-                                <div className="department-info">
-                                    <h4 className="department-title">
-                                        <a href="academic-single.html">Art And Design</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="department-btn">
-                                        <a href="academic-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <section className='cta'>
                 <div className="cta-area">
                     <div className="container">
                         <div className="cta-wrapper">
                             <div className="row align-items-center">
                                 <div className="col-lg-5 ms-lg-auto">
                                     <div className="cta-content">
-                                        <h1>Our 20% Offer Running - Join Today For Your Course</h1>
+                                        <h1>SCALED AGILE (SAFe®) </h1>
+                                        <h2>“Certified. Scalable. Strategic.”</h2>
+                                        <h2 className="site-title">
+                                            <u><i>Scale Agility. Empower Teams. Lead with SAFe®.</i></u>
+
+                                        </h2>
                                         <p>
-                                            There are many variations of passages available but the majority
-                                            have suffered alteration in some form by injected humour
-                                            randomised words which don't look even slightly believable.
+                                            As an official Bronze Partner of Scaled Agile Inc., Timmins delivers globally recognized SAFe® certification programs designed to help enterprises implement agile at scale.
+                                            From Leading SAFe® to Agile Product Management and Scrum Master Certification, our courses combine real-world context with expert instruction to accelerate transformation.
+                                            All programs are HRDC-claimable and facilitated by certified SAFe® practitioners.
                                         </p>
                                         <div className="cta-btn">
                                             <a href="application-form.html" className="theme-btn">
-                                                Apply Now
+                                                Explore SAFe® Certifications
                                                 <i className="fas fa-arrow-right-long" />
                                             </a>
                                         </div>
@@ -1385,172 +987,459 @@ const Homepage = () => {
                     </div>
                 </div>
 
+
             </section>
 
-
-            <section className='event'>
-                <div className="event-area bg py-120">
+            <section className='Public class'>
+                <div className="event-area py-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mx-auto">
                                 <div className="site-heading text-center">
                                     <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Events
+                                        <i className="far fa-book-open-reader" /> Public Class
                                     </span>
                                     <h2 className="site-title">
-                                        Our Upcoming <span>Events</span>
+                                        Join Our Upcoming Public Classes
                                     </h2>
-                                    <p>
+                                    {/* <p>
                                         It is a long established fact that a reader will be distracted by
                                         the readable content of a page when looking at its layout.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </div>
-                        <div className="event-slider owl-carousel owl-theme">
-                            <div className="event-item">
-                                <div className="event-location">
-                                    <span>
-                                        <i className="far fa-map-marker-alt" /> 25/B Milford Road, New York
-                                    </span>
-                                </div>
-                                <div className="event-img">
-                                    <img src="./src/assets/img/event/01.jpg" alt="" />
-                                </div>
-                                <div className="event-info">
-                                    <div className="event-meta">
-                                        <span className="event-date">
-                                            <i className="far fa-calendar-alt" />
-                                            16 June, 2024
-                                        </span>
-                                        <span className="event-time">
-                                            <i className="far fa-clock" />
-                                            10.00AM - 04.00PM
+                        <div className="row">
+                            <div className="col-lg-4">
+                                <div className="event-item">
+                                    <div className="event-location">
+                                        <span>
+                                            <i className="far fa-map-marker-alt" />
+                                            Kuala Lumpur
                                         </span>
                                     </div>
-                                    <h4 className="event-title">
-                                        <a href="event-single.html">High School Program 2024</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="event-btn">
-                                        <a href="event-single.html" className="theme-btn">
-                                            Join Event
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                    <div className="event-img">
+                                        <img src="assets/img/event/01.jpg" alt="" />
                                     </div>
-                                </div>
-                            </div>
-                            <div className="event-item">
-                                <div className="event-location">
-                                    <span>
-                                        <i className="far fa-map-marker-alt" /> 25/B Milford Road, New York
-                                    </span>
-                                </div>
-                                <div className="event-img">
-                                    <img src="./src/assets/img/event/02.jpg" alt="" />
-                                </div>
-                                <div className="event-info">
-                                    <div className="event-meta">
-                                        <span className="event-date">
-                                            <i className="far fa-calendar-alt" />
-                                            16 June, 2024
-                                        </span>
-                                        <span className="event-time">
-                                            <i className="far fa-clock" />
-                                            10.00AM - 04.00PM
-                                        </span>
-                                    </div>
-                                    <h4 className="event-title">
-                                        <a href="event-single.html">High School Program 2024</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="event-btn">
-                                        <a href="event-single.html" className="theme-btn">
-                                            Join Event
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                    <div className="event-info">
+                                        <div className="event-meta">
+                                            <span className="event-date">
+                                                <i className="far fa-calendar-alt" />
+                                                17–21 2025
+                                            </span>
+                                            {/* <span className="event-time">
+                                                <i className="far fa-clock" />
+                                                10.00AM - 04.00PM
+                                            </span> */}
+                                        </div>
+                                        <h4 className="event-title">
+                                            <a href="#">Embedded Linux System Internals</a>
+                                        </h4>
+                                        {/* <p>
+                                            There are many variations of passages the majority have some
+                                            injected humour.
+                                        </p> */}
+                                        <div className="event-btn">
+                                            <a href="#" className="theme-btn">
+                                                View Full Calendar
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="event-item">
-                                <div className="event-location">
-                                    <span>
-                                        <i className="far fa-map-marker-alt" /> 25/B Milford Road, New York
-                                    </span>
-                                </div>
-                                <div className="event-img">
-                                    <img src="./src/assets/img/event/03.jpg" alt="" />
-                                </div>
-                                <div className="event-info">
-                                    <div className="event-meta">
-                                        <span className="event-date">
-                                            <i className="far fa-calendar-alt" />
-                                            16 June, 2024
-                                        </span>
-                                        <span className="event-time">
-                                            <i className="far fa-clock" />
-                                            10.00AM - 04.00PM
+                            <div className="col-lg-4">
+                                <div className="event-item">
+                                    <div className="event-location">
+                                        <span>
+                                            <i className="far fa-map-marker-alt" />
+                                            Penang
                                         </span>
                                     </div>
-                                    <h4 className="event-title">
-                                        <a href="event-single.html">High School Program 2024</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="event-btn">
-                                        <a href="event-single.html" className="theme-btn">
-                                            Join Event
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                    <div className="event-img">
+                                        <img src="assets/img/event/02.jpg" alt="" />
                                     </div>
-                                </div>
-                            </div>
-                            <div className="event-item">
-                                <div className="event-location">
-                                    <span>
-                                        <i className="far fa-map-marker-alt" /> 25/B Milford Road, New York
-                                    </span>
-                                </div>
-                                <div className="event-img">
-                                    <img src="./src/assets/img/event/04.jpg" alt="" />
-                                </div>
-                                <div className="event-info">
-                                    <div className="event-meta">
-                                        <span className="event-date">
-                                            <i className="far fa-calendar-alt" />
-                                            16 June, 2024
-                                        </span>
-                                        <span className="event-time">
-                                            <i className="far fa-clock" />
-                                            10.00AM - 04.00PM
-                                        </span>
-                                    </div>
-                                    <h4 className="event-title">
-                                        <a href="event-single.html">High School Program 2024</a>
-                                    </h4>
-                                    <p>
-                                        There are many variations of passages the majority have some
-                                        injected humour.
-                                    </p>
-                                    <div className="event-btn">
-                                        <a href="event-single.html" className="theme-btn">
-                                            Join Event
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                    <div className="event-info">
+                                        <div className="event-meta">
+                                            <span className="event-date">
+                                                <i className="far fa-calendar-alt" />
+                                                Mar 10–11 2025
+                                            </span>
+                                            {/* <span className="event-time">
+                                                <i className="far fa-clock" />
+                                                10.00AM - 04.00PM
+                                            </span> */}
+                                        </div>
+                                        <h4 className="event-title">
+                                            <a href="#">Power BI Bootcamp </a>
+                                        </h4>
+                                        {/* <p>
+                                            There are many variations of passages the majority have some
+                                            injected humour.
+                                        </p> */}
+                                        <div className="event-btn">
+                                            <a href="#" className="theme-btn">
+                                                View Full Calenda
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-lg-4">
+                                <div className="event-item">
+                                    <div className="event-location">
+                                        <span>
+                                            <i className="far fa-map-marker-alt" />
+                                            Online
+                                        </span>
+                                    </div>
+                                    <div className="event-img">
+                                        <img src="assets/img/event/gai.jpeg" alt="" />
+                                    </div>
+                                    <div className="event-info">
+                                        <div className="event-meta">
+                                            <span className="event-date">
+                                                <i className="far fa-calendar-alt" />
+                                                Apr 5–6 2025
+                                            </span>
+                                            {/* <span className="event-time">
+                                                <i className="far fa-clock" />
+                                                10.00AM - 04.00PM
+                                            </span> */}
+                                        </div>
+                                        <h4 className="event-title">
+                                            <a href="#">Generative AI with LangChain</a>
+                                        </h4>
+                                        {/* <p>
+                                            There are many variations of passages the majority have some
+                                            injected humour.
+                                        </p> */}
+                                        <div className="event-btn">
+                                            <a href="#" className="theme-btn">
+                                                View Full Calendar
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="col-lg-4">
+                                <div className="event-item">
+                                    <div className="event-location">
+                                        <span>
+                                            <i className="far fa-map-marker-alt" /> 25/B Milford Road, New
+                                            York
+                                        </span>
+                                    </div>
+                                    <div className="event-img">
+                                        <img src="assets/img/event/04.jpg" alt="" />
+                                    </div>
+                                    <div className="event-info">
+                                        <div className="event-meta">
+                                            <span className="event-date">
+                                                <i className="far fa-calendar-alt" />
+                                                16 June, 2024
+                                            </span>
+                                            <span className="event-time">
+                                                <i className="far fa-clock" />
+                                                10.00AM - 04.00PM
+                                            </span>
+                                        </div>
+                                        <h4 className="event-title">
+                                            <a href="#">High School Program 2024</a>
+                                        </h4>
+                                        <p>
+                                            There are many variations of passages the majority have some
+                                            injected humour.
+                                        </p>
+                                        <div className="event-btn">
+                                            <a href="#" className="theme-btn">
+                                                Join Event
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-lg-4">
+                                <div className="event-item">
+                                    <div className="event-location">
+                                        <span>
+                                            <i className="far fa-map-marker-alt" /> 25/B Milford Road, New
+                                            York
+                                        </span>
+                                    </div>
+                                    <div className="event-img">
+                                        <img src="assets/img/event/05.html" alt="" />
+                                    </div>
+                                    <div className="event-info">
+                                        <div className="event-meta">
+                                            <span className="event-date">
+                                                <i className="far fa-calendar-alt" />
+                                                16 June, 2024
+                                            </span>
+                                            <span className="event-time">
+                                                <i className="far fa-clock" />
+                                                10.00AM - 04.00PM
+                                            </span>
+                                        </div>
+                                        <h4 className="event-title">
+                                            <a href="#">High School Program 2024</a>
+                                        </h4>
+                                        <p>
+                                            There are many variations of passages the majority have some
+                                            injected humour.
+                                        </p>
+                                        <div className="event-btn">
+                                            <a href="#" className="theme-btn">
+                                                Join Event
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-lg-4">
+                                <div className="event-item">
+                                    <div className="event-location">
+                                        <span>
+                                            <i className="far fa-map-marker-alt" /> 25/B Milford Road, New
+                                            York
+                                        </span>
+                                    </div>
+                                    <div className="event-img">
+                                        <img src="assets/img/event/06.html" alt="" />
+                                    </div>
+                                    <div className="event-info">
+                                        <div className="event-meta">
+                                            <span className="event-date">
+                                                <i className="far fa-calendar-alt" />
+                                                16 June, 2024
+                                            </span>
+                                            <span className="event-time">
+                                                <i className="far fa-clock" />
+                                                10.00AM - 04.00PM
+                                            </span>
+                                        </div>
+                                        <h4 className="event-title">
+                                            <a href="#">High School Program 2024</a>
+                                        </h4>
+                                        <p>
+                                            There are many variations of passages the majority have some
+                                            injected humour.
+                                        </p>
+                                        <div className="event-btn">
+                                            <a href="#" className="theme-btn">
+                                                Join Event
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                        {/* pagination */}
+                        <div className="pagination-area">
+                            <div aria-label="Page navigation example">
+                                <ul className="pagination">
+                                    <li className="page-item">
+                                        <a className="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">
+                                                <i className="far fa-arrow-left" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li className="page-item active">
+                                        <a className="page-link" href="#">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li className="page-item">
+                                        <a className="page-link" href="#">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li className="page-item">
+                                        <a className="page-link" href="#">
+                                            3
+                                        </a>
+                                    </li>
+                                    <li className="page-item">
+                                        <a className="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">
+                                                <i className="far fa-arrow-right" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        {/* pagination end */}
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section className='event'>
+                <div className="facility-area py-120">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 mx-auto">
+                                <div className="site-heading text-center">
+                                    <span className="site-title-tagline">
+                                        <i className="far fa-book-open-reader" />CASE STUDIES & IMPACT STORIES
+                                    </span>
+                                    <h2 className="site-title">
+                                        A Decade of Results That Speak for Themselves
+                                    </h2>
+                                    {/* <p>
+                                        It is a long established fact that a reader will be distracted by
+                                        the readable content of a page when looking at its layout.
+                                    </p> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="./src/assets/img/facility/employee.   " alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Global Semiconductor Company (Confidential): Fresh Graduate Onboarding Program (10 Years)
+                                            </a>
+                                        </h3>
+                                        {/* <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p> */}
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                View All Case Studies
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="./src/assets/img/facility/gen ai." alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Motorola Mobility: Mobile Development Upskilling (8 Years)</a>
+                                        </h3>
+                                        {/* <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p> */}
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                View All Case Studies
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="./src/assets/img/facility/03." alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">DBS Bank: AI Transformation Journey (7 Years)</a>
+                                        </h3>
+                                        {/* <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p> */}
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                View All Case Studies
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="assets/img/facility/04.jpg" alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Transport Facility</a>
+                                        </h3>
+                                        <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p>
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="assets/img/facility/05.jpg" alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Lab Facility</a>
+                                        </h3>
+                                        <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p>
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="assets/img/facility/06.html" alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Gymnasium Facility</a>
+                                        </h3>
+                                        <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p>
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
+
 
             </section>
 
@@ -1565,11 +1454,10 @@ const Homepage = () => {
                                         <i className="far fa-book-open-reader" /> Gallery
                                     </span>
                                     <h2 className="site-title">
-                                        Our Photo <span>Gallery</span>
+                                        “ <span>I</span>nside the Timmins Experienc<span>e</span>”
                                     </h2>
                                     <p>
-                                        It is a long established fact that a reader will be distracted by
-                                        the readable content of a page when looking at its layout.
+                                        A glimpse into our classrooms, collaborations, and celebrations.
                                     </p>
                                 </div>
                             </div>
@@ -1704,7 +1592,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/01.jpg" alt="" />
+                                        <img src="./src/assets/img/testimonial/01.jp" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Anthony Nicoll</h4>
@@ -1731,7 +1619,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="/src/assets/img/testimonial/02.jpg" alt="" />
+                                        <img src="/src/assets/img/testimonial/02.jg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Richard Lock</h4>
@@ -1758,7 +1646,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/03.jpg" alt="" />
+                                        <img src="./src/assets/img/testimonial/03.jg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Randal Grand</h4>
@@ -1785,7 +1673,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/04.jpg" alt="" />
+                                        <img src="./src/assets/img/testimonial/04.jg" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Edward Miles</h4>
@@ -1812,7 +1700,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="testimonial-content">
                                     <div className="testimonial-author-img">
-                                        <img src="./src/assets/img/testimonial/05.jpg" alt="" />
+                                        <img src="./src/assets/img/testimonial/" alt="" />
                                     </div>
                                     <div className="testimonial-author-info">
                                         <h4>Ninal Gordon</h4>
@@ -1830,133 +1718,161 @@ const Homepage = () => {
             </section>
 
             <section className=''>
-                <div className="blog-area py-120">
+                <div className="facility-area py-120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mx-auto">
                                 <div className="site-heading text-center">
                                     <span className="site-title-tagline">
-                                        <i className="far fa-book-open-reader" /> Our Blog
+                                        <i className="far fa-book-open-reader" /> INSIGHTS & THOUGHT LEADERSHIP
                                     </span>
                                     <h2 className="site-title">
-                                        Latest News &amp; <span>Blog</span>
+                                        Exploring the Future of Learning & Technology
                                     </h2>
-                                    <p>
+                                    {/* <p>
                                         It is a long established fact that a reader will be distracted by
                                         the readable content of a page when looking at its layout.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-6 col-lg-4">
-                                <div className="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                    <div className="blog-date">
-                                        <i className="fal fa-calendar-alt" /> June 18, 2024
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="./src/assets/img/facility/employee.webp" alt="" />
                                     </div>
-                                    <div className="blog-item-img">
-                                        <img src="./src/assets/img/blog/01.jpg" alt="Thumb" />
-                                    </div>
-                                    <div className="blog-item-info">
-                                        <div className="blog-item-meta">
-                                            <ul>
-                                                <li>
-                                                    <a href="#">
-                                                        <i className="far fa-user-circle" /> By Alicia Davis
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i className="far fa-comments" /> 03 Comments
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h4 className="blog-title">
-                                            <a href="blog-single.html">
-                                                There are many variations passage have suffered available.
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Designing Onboarding That Accelerates ROI</a>
+                                        </h3>
+                                        {/* <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p> */}
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read Insights
+                                                <i className="fas fa-arrow-right-long" />
                                             </a>
-                                        </h4>
-                                        <a className="theme-btn" href="blog-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="blog-item wow fadeInUp" data-wow-delay=".50s">
-                                    <div className="blog-date">
-                                        <i className="fal fa-calendar-alt" /> June 18, 2024
+                                <div className="facility-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="./src/assets/img/facility/gen ai.png" alt="" />
                                     </div>
-                                    <div className="blog-item-img">
-                                        <img src="./src/assets/img/blog/02.jpg" alt="Thumb" />
-                                    </div>
-                                    <div className="blog-item-info">
-                                        <div className="blog-item-meta">
-                                            <ul>
-                                                <li>
-                                                    <a href="#">
-                                                        <i className="far fa-user-circle" /> By Alicia Davis
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i className="far fa-comments" /> 03 Comments
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h4 className="blog-title">
-                                            <a href="blog-single.html">
-                                                There are many variations passage have suffered available.
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Generative AI in Learning – What’s Changing</a>
+                                        </h3>
+                                        {/* <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p> */}
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read Insights
+                                                <i className="fas fa-arrow-right-long" />
                                             </a>
-                                        </h4>
-                                        <a className="theme-btn" href="blog-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <div className="blog-item wow fadeInUp" data-wow-delay=".75s">
-                                    <div className="blog-date">
-                                        <i className="fal fa-calendar-alt" /> June 18, 2024
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="./src/assets/img/facility/03.jpg" alt="" />
                                     </div>
-                                    <div className="blog-item-img">
-                                        <img src="./src/assets/img/blog/03.jpg" alt="Thumb" />
-                                    </div>
-                                    <div className="blog-item-info">
-                                        <div className="blog-item-meta">
-                                            <ul>
-                                                <li>
-                                                    <a href="#">
-                                                        <i className="far fa-user-circle" /> By Alicia Davis
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i className="far fa-comments" /> 03 Comments
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <h4 className="blog-title">
-                                            <a href="blog-single.html">
-                                                There are many variations passage have suffered available.
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Building Future-Ready Engineering Teams</a>
+                                        </h3>
+                                        {/* <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p> */}
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read Insights
+                                                <i className="fas fa-arrow-right-long" />
                                             </a>
-                                        </h4>
-                                        <a className="theme-btn" href="blog-single.html">
-                                            Read More
-                                            <i className="fas fa-arrow-right-long" />
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="assets/img/facility/04.jpg" alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Transport Facility</a>
+                                        </h3>
+                                        <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p>
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="assets/img/facility/05.jpg" alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Lab Facility</a>
+                                        </h3>
+                                        <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p>
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* <div className="col-md-6 col-lg-4">
+                                <div className="facility-item wow fadeInUp" data-wow-delay=".25s">
+                                    <div className="facility-img">
+                                        <img src="assets/img/facility/06.html" alt="" />
+                                    </div>
+                                    <div className="facility-content">
+                                        <h3 className="facility-title">
+                                            <a href="#">Gymnasium Facility</a>
+                                        </h3>
+                                        <p className="facility-text">
+                                            There are many variations of passages orem psum available but the
+                                            majority have suffer alteration in some form by injected.
+                                        </p>
+                                        <div className="facility-arrow">
+                                            <a href="#" className="theme-btn">
+                                                Read More
+                                                <i className="fas fa-arrow-right-long" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
+
 
             </section>
 

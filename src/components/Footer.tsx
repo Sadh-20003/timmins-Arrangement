@@ -12,7 +12,7 @@ const Footer = () => {
                         <div className="col-md-6 col-lg-4">
                             <div className="footer-widget-box about-us">
                                 <a href="#" className="footer-logo">
-                                    <img src="./src/assets/img/logo/logo-light.png" alt="" />
+                                    <img src="./src/assets/img/logo/logo.png" alt="" />
                                 </a>
                                 <p className="mb-3">
                                     We are many variations of passages available but the majority have
@@ -23,12 +23,12 @@ const Footer = () => {
                                     <li>
                                         <a href="tel:+21236547898">
                                             <i className="far fa-phone" />
-                                            +2 123 654 7898
+                                            +60 111 667 4727
                                         </a>
                                     </li>
                                     <li>
                                         <i className="far fa-map-marker-alt" />
-                                        25/B Milford Road, New York
+                                        Malaysia: Menara Centara, Kuala Lumpur
                                     </li>
                                     <li>
                                         <a href="https://live.themewild.com/cdn-cgi/l/email-protection#7d14131b123d18051c100d1118531e1210">
@@ -37,7 +37,7 @@ const Footer = () => {
                                                 className="__cf_email__"
                                                 data-cfemail="70191e161f301508111d001c155e131f1d"
                                             >
-                                                [email&nbsp;protected]
+                                                info@timmins-consulting.com
                                             </span>
                                         </a>
                                     </li>
@@ -50,38 +50,38 @@ const Footer = () => {
                                 <ul className="footer-list">
                                     <li>
                                         <a href="#">
-                                            <i className="fas fa-caret-right" /> About Us
+                                            <i className="fas fa-caret-right" /> Home
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fas fa-caret-right" /> FAQ's
+                                            <i className="fas fa-caret-right" /> Case Study
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fas fa-caret-right" /> Testimonials
+                                            <i className="fas fa-caret-right" /> Our Approch
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fas fa-caret-right" /> Terms Of Service
+                                            <i className="fas fa-caret-right" /> About us
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fas fa-caret-right" /> Privacy policy
+                                            <i className="fas fa-caret-right" /> Our Solution
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fas fa-caret-right" /> Update News
+                                            <i className="fas fa-caret-right" />Contact
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3">
+                        {/* <div className="col-md-6 col-lg-3">
                             <div className="footer-widget-box list">
                                 <h4 className="footer-widget-title">Our Campus</h4>
                                 <ul className="footer-list">
@@ -118,7 +118,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-md-6 col-lg-3">
                             <div className="footer-widget-box list">
                                 <h4 className="footer-widget-title">Newsletter</h4>
@@ -148,7 +148,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6 align-self-center">
                                 <p className="copyright-text">
-                                    © Copyright <span id="date" /> <a href="#"> Eduka </a> All Rights
+                                    © Copyright <span id="date" /> <a href="#"> Timmins </a> All Rights
                                     Reserved.
                                 </p>
                             </div>

@@ -9,8 +9,8 @@ const Navbar = () => {
                     <div className="header-top-wrap">
                         <div className="header-top-left">
                             <div className="header-top-social">
-                                <span>Follow Us: </span>
-                                <a href="#">
+                                {/* <span>Follow Us: </span> */}
+                                {/* <a href="#">
                                     <i className="fab fa-facebook-f" />
                                 </a>
                                 <a href="#">
@@ -21,18 +21,18 @@ const Navbar = () => {
                                 </a>
                                 <a href="#">
                                     <i className="fab fa-whatsapp" />
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                         <div className="header-top-right">
                             <div className="header-top-contact">
                                 <ul>
-                                    <li>
+                                    {/* <li>
                                         <a href="#">
-                                            <i className="far fa-location-dot" /> 25/B Milford Road, New
-                                            York
+                                            <i className="far fa-location-dot" /> Komplek Danau Kota, 67, Jln Taman Ibu Kota, Setapak
+
                                         </a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="https://live.themewild.com/cdn-cgi/l/email-protection#deb7b0b8b19ebba6bfb3aeb2bbf0bdb1b3">
                                             <i className="far fa-envelopes" />{" "}
@@ -40,13 +40,13 @@ const Navbar = () => {
                                                 className="__cf_email__"
                                                 data-cfemail="e0898e868fa08598818d908c85ce838f8d"
                                             >
-                                                [email&nbsp;protected]
+                                                info@timmins-consulting.com
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="tel:+21236547898">
-                                            <i className="far fa-phone-volume" /> +2 123 654 7898
+                                            <i className="far fa-phone-volume" /> +60 111 667 4727
                                         </a>
                                     </li>
                                 </ul>
@@ -82,15 +82,15 @@ const Navbar = () => {
                         </div>
                         <div className="collapse navbar-collapse" id="main_nav">
                             <ul className="navbar-nav">
-                                <li className="nav-item dropdown">
+                                <li className="nav-item ">
                                     <a
-                                        className="nav-link dropdown-toggle active"
+                                        className="nav-link active"
                                         href="#"
-                                        data-bs-toggle="dropdown"
+                                        data-bs-toggle=""
                                     >
                                         Home
                                     </a>
-                                    <ul className="dropdown-menu fade-down">
+                                    {/* <ul className="dropdown-menu fade-down">
                                         <li>
                                             <a className="dropdown-item" href="index.html">
                                                 Home Page 01
@@ -106,17 +106,17 @@ const Navbar = () => {
                                                 Home Page 03
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li className="nav-item dropdown">
+                                <li className="nav-item ">
                                     <a
-                                        className="nav-link dropdown-toggle"
+                                        className="nav-link "
                                         href="#"
-                                        data-bs-toggle="dropdown"
+                                        data-bs-toggle=""
                                     >
-                                        Courses
+                                        Case Studies
                                     </a>
-                                    <ul className="dropdown-menu fade-down">
+                                    {/* <ul className="dropdown-menu fade-down">
                                         <li>
                                             <a className="dropdown-item" href="course.html">
                                                 Courses One
@@ -132,26 +132,26 @@ const Navbar = () => {
                                                 Course Single One
                                             </a>
                                         </li>
-                                        <li>
+                                        <li>  
                                             <a className="dropdown-item" href="course-single-2.html">
                                                 Course Single Two
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li className="nav-item mega-menu dropdown">
+                                <li className="nav-item mega-menu ">
                                     <a
-                                        className="nav-link dropdown-toggle"
+                                        className="nav-link "
                                         href="#"
-                                        data-bs-toggle="dropdown"
+                                        data-bs-toggle=""
                                     >
-                                        Academics
+                                        Our Approch
                                     </a>
-                                    <div className="dropdown-menu fade-down">
+                                    {/* <div className="dropdown-menu fade-down">
                                         <div className="mega-content">
                                             <div className="container-fluid">
                                                 <div className="row">
-                                                    <div className="col-12 col-sm-4 col-md-3">
+                                                    {/* <div className="col-12 col-sm-4 col-md-3">
                                                         <h5>About Us</h5>
                                                         <div className="menu-about">
                                                             <a href="#" className="menu-about-logo">
@@ -163,10 +163,10 @@ const Navbar = () => {
                                                                 injected humour words injected humour believable.
                                                             </p>
                                                         </div>
-                                                    </div>
-                                                    <div className="col-12 col-sm-4 col-md-3">
-                                                        <h5>Undergraduate</h5>
-                                                        <ul className="mega-menu-item">
+                                                    </div> */}
+                                    <div className="col-12 col-sm-4 col-md-3">
+                                        {/* <h5>Undergraduate</h5> */}
+                                        {/* <ul className="mega-menu-item">
                                                             <li>
                                                                 <a
                                                                     className="dropdown-item"
@@ -207,11 +207,11 @@ const Navbar = () => {
                                                                     Science And Engineering
                                                                 </a>
                                                             </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="col-12 col-sm-4 col-md-3">
+                                                        </ul> */}
+                                    </div>
+                                    {/* <div className="col-12 col-sm-4 col-md-3">
                                                         <h5>Graduate Program</h5>
-                                                        <ul className="mega-menu-item">
+                                                        {/* <ul className="mega-menu-item">
                                                             <li>
                                                                 <a
                                                                     className="dropdown-item"
@@ -252,11 +252,11 @@ const Navbar = () => {
                                                                     Computer Science
                                                                 </a>
                                                             </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="col-12 col-sm-12 col-md-3">
+                                                        </ul> 
+                                                    </div> */}
+                                    {/* <div className="col-12 col-sm-12 col-md-3">
                                                         <h5>Resources</h5>
-                                                        <ul className="mega-menu-item">
+                                                        {/* <ul className="mega-menu-item">
                                                             <li>
                                                                 <a className="dropdown-item" href="academic.html">
                                                                     Academics Department
@@ -288,28 +288,28 @@ const Navbar = () => {
                                                                     Contact With Us
                                                                 </a>
                                                             </li>
-                                                        </ul>
-                                                    </div>
+                                                        </ul> 
+                                                    </div> 
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </li>
-                                <li className="nav-item dropdown">
+                                <li className="nav-item ">
                                     <a
-                                        className="nav-link dropdown-toggle"
+                                        className="nav-link "
                                         href="#"
-                                        data-bs-toggle="dropdown"
+                                        data-bs-toggle=""
                                     >
-                                        Pages
+                                        About us
                                     </a>
-                                    <ul className="dropdown-menu fade-down">
+                                    {/* <ul className="dropdown-menu fade-down">
                                         <li>
                                             <a className="dropdown-item" href="about.html">
                                                 About Us
                                             </a>
                                         </li>
-                                        <li className="dropdown-submenu">
+                                        {/* <li className="dropdown-submenu">
                                             <a className="dropdown-item dropdown-toggle" href="#">
                                                 Events
                                             </a>
@@ -325,8 +325,8 @@ const Navbar = () => {
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li className="dropdown-submenu">
+                                        </li> */}
+                                    {/* <li className="dropdown-submenu">
                                             <a className="dropdown-item dropdown-toggle" href="#">
                                                 Portfolio
                                             </a>
@@ -342,8 +342,8 @@ const Navbar = () => {
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li className="dropdown-submenu">
+                                        </li> */}
+                                    {/* <li className="dropdown-submenu">
                                             <a className="dropdown-item dropdown-toggle" href="#">
                                                 Teachers
                                             </a>
@@ -364,13 +364,13 @@ const Navbar = () => {
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="gallery.html">
                                                 Gallery
                                             </a>
-                                        </li>
-                                        <li className="dropdown-submenu">
+                                        </li> */}
+                                    {/* <li className="dropdown-submenu">
                                             <a className="dropdown-item dropdown-toggle" href="#">
                                                 Authentication
                                             </a>
@@ -391,53 +391,53 @@ const Navbar = () => {
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="pricing.html">
                                                 Pricing Plan
                                             </a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="faq.html">
                                                 Faq
                                             </a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="testimonial.html">
                                                 Testimonials
                                             </a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="404.html">
                                                 404 Error
                                             </a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="coming-soon.html">
                                                 Coming Soon
                                             </a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="terms.html">
                                                 Terms Of Service
                                             </a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                    {/* <li>
                                             <a className="dropdown-item" href="privacy.html">
                                                 Privacy Policy
                                             </a>
-                                        </li>
-                                    </ul>
+                                        </li> 
+                                    </ul> */}
                                 </li>
-                                <li className="nav-item dropdown">
+                                <li className="nav-item ">
                                     <a
-                                        className="nav-link dropdown-toggle"
+                                        className="nav-link "
                                         href="#"
-                                        data-bs-toggle="dropdown"
+                                        data-bs-toggle=""
                                     >
-                                        Admissions
+                                        Our solution
                                     </a>
-                                    <ul className="dropdown-menu fade-down">
+                                    {/* <ul className="dropdown-menu fade-down">
                                         <li>
                                             <a className="dropdown-item" href="how-to-apply.html">
                                                 How To Apply
@@ -559,17 +559,17 @@ const Navbar = () => {
                                                 Health Care
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li className="nav-item dropdown">
+                                {/* <li className="nav-item dropdown">
                                     <a
                                         className="nav-link dropdown-toggle"
                                         href="#"
                                         data-bs-toggle="dropdown"
                                     >
-                                        Blog
-                                    </a>
-                                    <ul className="dropdown-menu fade-down">
+                                        {/* Blog */}
+
+                                {/* <ul className="dropdown-menu fade-down">
                                         <li>
                                             <a className="dropdown-item" href="blog.html">
                                                 Blog
@@ -580,8 +580,8 @@ const Navbar = () => {
                                                 Blog Single
                                             </a>
                                         </li>
-                                    </ul>
-                                </li>
+                                    </ul> 
+                                </li> */}
                                 <li className="nav-item">
                                     <a className="nav-link" href="contact.html">
                                         Contact
